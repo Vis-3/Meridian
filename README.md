@@ -1,7 +1,20 @@
 # Meridian
 
-![CI](https://github.com/sansk/meridian/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/Vis-3/Meridian/actions/workflows/ci.yml/badge.svg)
 ![Uptime](https://img.shields.io/badge/uptime-monitoring-blue)
+
+![Qdrant](https://img.shields.io/badge/Qdrant-FF4444?style=flat&logo=qdrant&logoColor=white)
+![Neo4j](https://img.shields.io/badge/Neo4j-008CC1?style=flat&logo=neo4j&logoColor=white)
+![Google Gemini](https://img.shields.io/badge/Gemini_2.5_Flash-4285F4?style=flat&logo=google&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat&logo=googlecloud&logoColor=white)
+![AWS S3](https://img.shields.io/badge/AWS_S3-FF9900?style=flat&logo=amazons3&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white)
+![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat&logo=apachespark&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 
 Benchmarks 8 RAG architectures on 100 SEC filings (2020–2024) across 5 companies, measuring numerical accuracy, faithfulness, citation coverage, and keyword hit rate on 325 hand-labeled financial Q&A pairs spanning COVID impact, supply chain disruption, and AI investment cycles.
 
