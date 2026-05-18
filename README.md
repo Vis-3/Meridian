@@ -214,7 +214,7 @@ Default: `admin` / `GRAFANA_PASSWORD` from `.env` (default `admin`).
 ## Full Build Pipeline
 
 ```bash
-# 1. Download SEC filings from EDGAR
+# 1. Download SEC filings from EDGAR and upload to S3
 python ingestion/downloader.py
 
 # 2. Extract text + tables (PySpark parallel, ~6x speedup)
@@ -238,6 +238,27 @@ python scripts/run_batch_evaluation.py --no-ragas
 # 8. RAGAS scoring pass (overnight)
 python scripts/score_saved_results.py
 ```
+
+---
+
+## AWS S3 Storage
+
+Raw filings and processed text are stored in two S3 buckets. `ingestion/downloader.py` downloads each filing from SEC EDGAR and uploads it to S3 via `ingestion/s3_client.py` (boto3). The extractor reads from S3, processes in parallel with PySpark, and writes extracted text back to the processed bucket.
+
+| Bucket | Contents |
+|--------|----------|
+| `meridian-raw-sanskar` | Original SEC filings (.htm) — 100 documents |
+| `meridian-processed-sanskar` | Extracted text per section (Item 1, 1A, 7, 8) |
+
+```
+s3://meridian-raw/
+  apple/2023/10k/apple_2023_10k.htm
+
+s3://meridian-processed/
+  apple/2023/10k/apple_2023_10k.json
+```
+
+Region: `us-east-2`. Configure via `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, `AWS_DEFAULT_REGION` in `.env`.
 
 ---
 
