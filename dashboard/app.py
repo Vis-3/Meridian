@@ -301,6 +301,18 @@ button[kind="primary"]:hover {
     border-radius: 8px;
     font-weight: 500;
     padding: 0.5rem 0.75rem;
+    color: #0F172A !important;
+}
+[data-testid="stExpander"] summary span,
+[data-testid="stExpander"] summary p {
+    color: #0F172A !important;
+}
+[data-testid="stExpander"] > div[data-testid="stExpanderDetails"] {
+    background: #F8FAFC;
+    border: 1px solid #E2E8F0;
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+    color: #0F172A;
 }
 
 /* DataFrame */
