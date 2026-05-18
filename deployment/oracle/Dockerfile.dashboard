@@ -1,0 +1,32 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+RUN python -m venv /app/venv
+
+RUN /app/venv/bin/pip install --upgrade pip
+
+COPY requirements_deploy.txt .
+
+RUN /app/venv/bin/pip install --no-cache-dir \
+    torch==2.6.0 \
+    --index-url https://download.pytorch.org/whl/cpu
+
+RUN /app/venv/bin/pip install --no-cache-dir \
+    -r requirements_deploy.txt
+
+RUN /app/venv/bin/python -c "import streamlit; print('streamlit OK')"
+RUN /app/venv/bin/python -c "import plotly; print('plotly OK')"
+
+COPY . .
+
+ENV PATH="/app/venv/bin:$PATH"
+ENV VIRTUAL_ENV="/app/venv"
+
+EXPOSE 8501
+
+CMD ["/app/venv/bin/streamlit", "run", "dashboard/app.py", \
+     "--server.port=8501", \
+     "--server.address=0.0.0.0", \
+     "--server.headless=true", \
+     "--server.enableCORS=false"]

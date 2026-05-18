@@ -1,0 +1,434 @@
+{
+  "naive": {
+    "quality": 0.6738,
+    "efficiency": 0.3683,
+    "cost_quality": 0.5397,
+    "production": 0.7998,
+    "p50_ms": 66.5,
+    "avg_cost_usd": 0.00012673333333333331,
+    "per_type_quality": {
+      "simple_factual": 0.8446,
+      "numerical_reasoning": 0.7046,
+      "temporal": 0.4011,
+      "comparative": 0.7896,
+      "multi_hop": 0.5625,
+      "risk_qualitative": 0.9464
+    },
+    "per_type_scores": {
+      "simple_factual": {
+        "quality": 0.8446,
+        "efficiency": 0.4617,
+        "cost_quality": 0.6765,
+        "production": 0.7921
+      },
+      "numerical_reasoning": {
+        "quality": 0.7046,
+        "efficiency": 0.3852,
+        "cost_quality": 0.5644,
+        "production": 0.7818
+      },
+      "temporal": {
+        "quality": 0.4011,
+        "efficiency": 0.2193,
+        "cost_quality": 0.3213,
+        "production": 0.7417
+      },
+      "comparative": {
+        "quality": 0.7896,
+        "efficiency": 0.4316,
+        "cost_quality": 0.6325,
+        "production": 0.7975
+      },
+      "multi_hop": {
+        "quality": 0.5625,
+        "efficiency": 0.3075,
+        "cost_quality": 0.4506,
+        "production": 0.7961
+      },
+      "risk_qualitative": {
+        "quality": 0.9464,
+        "efficiency": 0.5174,
+        "cost_quality": 0.7581,
+        "production": 0.7998
+      }
+    }
+  },
+  "hybrid": {
+    "quality": 0.6412,
+    "efficiency": 0.1974,
+    "cost_quality": 0.6296,
+    "production": 0.8073,
+    "p50_ms": 1768.1,
+    "avg_cost_usd": 0.00010338333333333333,
+    "per_type_quality": {
+      "simple_factual": 0.8554,
+      "numerical_reasoning": 0.6464,
+      "temporal": 0.384,
+      "comparative": 0.7202,
+      "multi_hop": 0.5667,
+      "risk_qualitative": 0.8454
+    },
+    "per_type_scores": {
+      "simple_factual": {
+        "quality": 0.8554,
+        "efficiency": 0.2634,
+        "cost_quality": 0.84,
+        "production": 0.8301
+      },
+      "numerical_reasoning": {
+        "quality": 0.6464,
+        "efficiency": 0.199,
+        "cost_quality": 0.6347,
+        "production": 0.7737
+      },
+      "temporal": {
+        "quality": 0.384,
+        "efficiency": 0.1182,
+        "cost_quality": 0.3771,
+        "production": 0.7546
+      },
+      "comparative": {
+        "quality": 0.7202,
+        "efficiency": 0.2218,
+        "cost_quality": 0.7072,
+        "production": 0.7854
+      },
+      "multi_hop": {
+        "quality": 0.5667,
+        "efficiency": 0.1745,
+        "cost_quality": 0.5565,
+        "production": 0.8315
+      },
+      "risk_qualitative": {
+        "quality": 0.8454,
+        "efficiency": 0.2603,
+        "cost_quality": 0.8301,
+        "production": 0.7781
+      }
+    }
+  },
+  "fusion": {
+    "quality": 0.6588,
+    "efficiency": 0.143,
+    "cost_quality": 0.5531,
+    "production": 0.676,
+    "p50_ms": 40364.8,
+    "avg_cost_usd": 0.00012092777777777779,
+    "per_type_quality": {
+      "simple_factual": 0.8506,
+      "numerical_reasoning": 0.655,
+      "temporal": 0.4538,
+      "comparative": 0.7619,
+      "multi_hop": 0.547,
+      "risk_qualitative": 0.8942
+    },
+    "per_type_scores": {
+      "simple_factual": {
+        "quality": 0.8506,
+        "efficiency": 0.1847,
+        "cost_quality": 0.7141,
+        "production": 0.6829
+      },
+      "numerical_reasoning": {
+        "quality": 0.655,
+        "efficiency": 0.1422,
+        "cost_quality": 0.5499,
+        "production": 0.6352
+      },
+      "temporal": {
+        "quality": 0.4538,
+        "efficiency": 0.0985,
+        "cost_quality": 0.381,
+        "production": 0.6871
+      },
+      "comparative": {
+        "quality": 0.7619,
+        "efficiency": 0.1654,
+        "cost_quality": 0.6396,
+        "production": 0.6673
+      },
+      "multi_hop": {
+        "quality": 0.547,
+        "efficiency": 0.1188,
+        "cost_quality": 0.4592,
+        "production": 0.6698
+      },
+      "risk_qualitative": {
+        "quality": 0.8942,
+        "efficiency": 0.1941,
+        "cost_quality": 0.7507,
+        "production": 0.6596
+      }
+    }
+  },
+  "hierarchical": {
+    "quality": 0.6498,
+    "efficiency": 0.1758,
+    "cost_quality": 0.5558,
+    "production": 0.7799,
+    "p50_ms": 4961.1,
+    "avg_cost_usd": 0.00011869444444444444,
+    "per_type_quality": {
+      "simple_factual": 0.8578,
+      "numerical_reasoning": 0.7309,
+      "temporal": 0.3961,
+      "comparative": 0.7216,
+      "multi_hop": 0.4986,
+      "risk_qualitative": 0.9218
+    },
+    "per_type_scores": {
+      "simple_factual": {
+        "quality": 0.8578,
+        "efficiency": 0.2321,
+        "cost_quality": 0.7337,
+        "production": 0.7977
+      },
+      "numerical_reasoning": {
+        "quality": 0.7309,
+        "efficiency": 0.1978,
+        "cost_quality": 0.6251,
+        "production": 0.7977
+      },
+      "temporal": {
+        "quality": 0.3961,
+        "efficiency": 0.1072,
+        "cost_quality": 0.3388,
+        "production": 0.7341
+      },
+      "comparative": {
+        "quality": 0.7216,
+        "efficiency": 0.1953,
+        "cost_quality": 0.6172,
+        "production": 0.7525
+      },
+      "multi_hop": {
+        "quality": 0.4986,
+        "efficiency": 0.1349,
+        "cost_quality": 0.4264,
+        "production": 0.7376
+      },
+      "risk_qualitative": {
+        "quality": 0.9218,
+        "efficiency": 0.2494,
+        "cost_quality": 0.7884,
+        "production": 0.7847
+      }
+    }
+  },
+  "corrective": {
+    "quality": 0.6643,
+    "efficiency": 0.1329,
+    "cost_quality": 0.6643,
+    "production": 0.5327,
+    "p50_ms": 99234.6,
+    "avg_cost_usd": 0.00010151666666666668,
+    "per_type_quality": {
+      "simple_factual": 0.8557,
+      "numerical_reasoning": 0.7114,
+      "temporal": 0.4331,
+      "comparative": 0.7786,
+      "multi_hop": 0.4909,
+      "risk_qualitative": 0.91
+    },
+    "per_type_scores": {
+      "simple_factual": {
+        "quality": 0.8557,
+        "efficiency": 0.1713,
+        "cost_quality": 0.8557,
+        "production": 0.5386
+      },
+      "numerical_reasoning": {
+        "quality": 0.7114,
+        "efficiency": 0.1424,
+        "cost_quality": 0.7114,
+        "production": 0.5265
+      },
+      "temporal": {
+        "quality": 0.4331,
+        "efficiency": 0.0867,
+        "cost_quality": 0.4331,
+        "production": 0.517
+      },
+      "comparative": {
+        "quality": 0.7786,
+        "efficiency": 0.1558,
+        "cost_quality": 0.7786,
+        "production": 0.5305
+      },
+      "multi_hop": {
+        "quality": 0.4909,
+        "efficiency": 0.0982,
+        "cost_quality": 0.4909,
+        "production": 0.4729
+      },
+      "risk_qualitative": {
+        "quality": 0.91,
+        "efficiency": 0.1821,
+        "cost_quality": 0.91,
+        "production": 0.5206
+      }
+    }
+  },
+  "graph": {
+    "quality": 0.6688,
+    "efficiency": 0.2126,
+    "cost_quality": 0.5506,
+    "production": 0.7975,
+    "p50_ms": 1399.2,
+    "avg_cost_usd": 0.0001233,
+    "per_type_quality": {
+      "simple_factual": 0.8381,
+      "numerical_reasoning": 0.7142,
+      "temporal": 0.4276,
+      "comparative": 0.7933,
+      "multi_hop": 0.5445,
+      "risk_qualitative": 0.8798
+    },
+    "per_type_scores": {
+      "simple_factual": {
+        "quality": 0.8381,
+        "efficiency": 0.2664,
+        "cost_quality": 0.69,
+        "production": 0.7897
+      },
+      "numerical_reasoning": {
+        "quality": 0.7142,
+        "efficiency": 0.227,
+        "cost_quality": 0.588,
+        "production": 0.7898
+      },
+      "temporal": {
+        "quality": 0.4276,
+        "efficiency": 0.1359,
+        "cost_quality": 0.3521,
+        "production": 0.7723
+      },
+      "comparative": {
+        "quality": 0.7933,
+        "efficiency": 0.2521,
+        "cost_quality": 0.6531,
+        "production": 0.8012
+      },
+      "multi_hop": {
+        "quality": 0.5445,
+        "efficiency": 0.1731,
+        "cost_quality": 0.4483,
+        "production": 0.7816
+      },
+      "risk_qualitative": {
+        "quality": 0.8798,
+        "efficiency": 0.2796,
+        "cost_quality": 0.7244,
+        "production": 0.766
+      }
+    }
+  },
+  "agentic": {
+    "quality": 0.661,
+    "efficiency": 0.1593,
+    "cost_quality": 0.5707,
+    "production": 0.7624,
+    "p50_ms": 14084.9,
+    "avg_cost_usd": 0.00011757222222222222,
+    "per_type_quality": {
+      "simple_factual": 0.8435,
+      "numerical_reasoning": 0.7157,
+      "temporal": 0.4284,
+      "comparative": 0.773,
+      "multi_hop": 0.5105,
+      "risk_qualitative": 0.8978
+    },
+    "per_type_scores": {
+      "simple_factual": {
+        "quality": 0.8435,
+        "efficiency": 0.2033,
+        "cost_quality": 0.7283,
+        "production": 0.7635
+      },
+      "numerical_reasoning": {
+        "quality": 0.7157,
+        "efficiency": 0.1725,
+        "cost_quality": 0.618,
+        "production": 0.7615
+      },
+      "temporal": {
+        "quality": 0.4284,
+        "efficiency": 0.1033,
+        "cost_quality": 0.3699,
+        "production": 0.7439
+      },
+      "comparative": {
+        "quality": 0.773,
+        "efficiency": 0.1863,
+        "cost_quality": 0.6674,
+        "production": 0.7591
+      },
+      "multi_hop": {
+        "quality": 0.5105,
+        "efficiency": 0.123,
+        "cost_quality": 0.4408,
+        "production": 0.7223
+      },
+      "risk_qualitative": {
+        "quality": 0.8978,
+        "efficiency": 0.2164,
+        "cost_quality": 0.7752,
+        "production": 0.7462
+      }
+    }
+  },
+  "full_system": {
+    "quality": 0.6524,
+    "efficiency": 0.1528,
+    "cost_quality": 0.5621,
+    "production": 0.7419,
+    "p50_ms": 18613.5,
+    "avg_cost_usd": 0.00011781666666666667,
+    "per_type_quality": {
+      "simple_factual": 0.8448,
+      "numerical_reasoning": 0.7101,
+      "temporal": 0.4307,
+      "comparative": 0.7309,
+      "multi_hop": 0.4905,
+      "risk_qualitative": 0.937
+    },
+    "per_type_scores": {
+      "simple_factual": {
+        "quality": 0.8448,
+        "efficiency": 0.1979,
+        "cost_quality": 0.7279,
+        "production": 0.7502
+      },
+      "numerical_reasoning": {
+        "quality": 0.7101,
+        "efficiency": 0.1663,
+        "cost_quality": 0.6119,
+        "production": 0.7436
+      },
+      "temporal": {
+        "quality": 0.4307,
+        "efficiency": 0.1009,
+        "cost_quality": 0.3711,
+        "production": 0.7323
+      },
+      "comparative": {
+        "quality": 0.7309,
+        "efficiency": 0.1712,
+        "cost_quality": 0.6298,
+        "production": 0.7185
+      },
+      "multi_hop": {
+        "quality": 0.4905,
+        "efficiency": 0.1149,
+        "cost_quality": 0.4226,
+        "production": 0.6906
+      },
+      "risk_qualitative": {
+        "quality": 0.937,
+        "efficiency": 0.2194,
+        "cost_quality": 0.8074,
+        "production": 0.7528
+      }
+    }
+  }
+}

@@ -1,0 +1,76 @@
+MERIDIAN CORPUS STATISTICS REPORT
+Generated from: C:\Users\sansk\Documents\Spring-26\Meridian\data\processed
+
+============================================================
+DOCUMENT STATS
+============================================================
+  Total documents:                    100
+  Average document size (words):      33,638
+  Largest document:                   meta_2024_10k  (76,907 words)
+  Smallest document:                  apple_2024_q1_10q  (8,429 words)
+
+  By company:
+    Amazon        20  [####################]
+    Apple         20  [####################]
+    Google        20  [####################]
+    Meta          20  [####################]
+    Microsoft     20  [####################]
+
+  By year:
+    2020   20  [####################]
+    2021   20  [####################]
+    2022   20  [####################]
+    2023   20  [####################]
+    2024   20  [####################]
+
+  By document type:
+    10-K      25
+    10-Q      75
+
+============================================================
+SECTION STATS
+============================================================
+  Total sections extracted:           400
+
+  Coverage per section type:
+    Item 1      100/100 docs (100.0%)  avg 14,603 words
+    Item 1A     100/100 docs (100.0%)  avg 11,654 words
+    Item 7      100/100 docs (100.0%)  avg  2,185 words
+    Item 8      100/100 docs (100.0%)  avg  5,196 words
+
+============================================================
+CHUNK STATS  (Qdrant: meridian_fixed)
+============================================================
+  Total chunks:                       7,379
+  Avg chunk size (tokens):            504
+
+  Chunks by company:
+    Amazon        1256  [##########----------]
+    Apple          763  [######--------------]
+    Google        1355  [###########---------]
+    Meta          2446  [####################]
+    Microsoft     1559  [#############-------]
+
+  Chunks by year:
+    2020   1537
+    2021   1439
+    2022   1437
+    2023   1477
+    2024   1489
+
+  Chunks by section:
+    Item 1       3198
+    Item 1A      2563
+    Item 8       1135
+    Item 7        483
+
+============================================================
+QUESTION COVERAGE
+============================================================
+  Total questions:                    325
+  Full corpus coverage:               325/325  (100.0%)
+  Questions with gaps:                0
+
+  All questions have full corpus coverage.
+
+============================================================

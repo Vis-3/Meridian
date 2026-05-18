@@ -1,0 +1,197 @@
+{
+  "__inputs": [
+    {
+      "name": "DS_PROMETHEUS",
+      "label": "Prometheus",
+      "description": "Meridian Prometheus datasource",
+      "type": "datasource",
+      "pluginId": "prometheus",
+      "pluginName": "Prometheus"
+    }
+  ],
+  "__requires": [
+    {"type": "grafana",    "id": "grafana",    "name": "Grafana",    "version": "10.0.0"},
+    {"type": "datasource", "id": "prometheus", "name": "Prometheus", "version": "1.0.0"},
+    {"type": "panel",      "id": "timeseries", "name": "Time series", "version": ""},
+    {"type": "panel",      "id": "gauge",      "name": "Gauge",       "version": ""},
+    {"type": "panel",      "id": "heatmap",    "name": "Heatmap",     "version": ""},
+    {"type": "panel",      "id": "stat",       "name": "Stat",        "version": ""}
+  ],
+  "annotations": {"list": []},
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 1,
+  "id": null,
+  "links": [],
+  "panels": [
+    {
+      "id": 1,
+      "title": "Query rate by architecture (counter rate)",
+      "type": "timeseries",
+      "datasource": {"type": "prometheus", "uid": "${DS_PROMETHEUS}"},
+      "gridPos": {"h": 8, "w": 12, "x": 0, "y": 0},
+      "targets": [
+        {
+          "expr": "rate(meridian_queries_total[5m])",
+          "legendFormat": "{{architecture}} / {{question_type}}",
+          "refId": "A"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {"unit": "reqps", "custom": {"lineWidth": 2}},
+        "overrides": []
+      }
+    },
+    {
+      "id": 2,
+      "title": "P99 latency by architecture (histogram)",
+      "type": "timeseries",
+      "datasource": {"type": "prometheus", "uid": "${DS_PROMETHEUS}"},
+      "gridPos": {"h": 8, "w": 12, "x": 12, "y": 0},
+      "targets": [
+        {
+          "expr": "histogram_quantile(0.99, rate(meridian_query_latency_ms_bucket[10m]))",
+          "legendFormat": "P99 {{architecture}}",
+          "refId": "A"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {"unit": "ms", "custom": {"lineWidth": 2}},
+        "overrides": []
+      }
+    },
+    {
+      "id": 3,
+      "title": "Faithfulness score distribution (heatmap)",
+      "type": "heatmap",
+      "datasource": {"type": "prometheus", "uid": "${DS_PROMETHEUS}"},
+      "gridPos": {"h": 8, "w": 12, "x": 0, "y": 8},
+      "targets": [
+        {
+          "expr": "rate(meridian_faithfulness_score_bucket[10m])",
+          "legendFormat": "{{le}}",
+          "refId": "A",
+          "format": "heatmap"
+        }
+      ],
+      "options": {"calculate": false, "color": {"scheme": "Spectral"}},
+      "fieldConfig": {"defaults": {}, "overrides": []}
+    },
+    {
+      "id": 4,
+      "title": "Faithfulness pass rate by architecture (gauge)",
+      "type": "gauge",
+      "datasource": {"type": "prometheus", "uid": "${DS_PROMETHEUS}"},
+      "gridPos": {"h": 8, "w": 12, "x": 12, "y": 8},
+      "targets": [
+        {
+          "expr": "1 - rate(meridian_faithfulness_failures_total[10m]) / rate(meridian_queries_total[10m])",
+          "legendFormat": "{{architecture}}",
+          "refId": "A"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "percentunit",
+          "min": 0, "max": 1,
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {"color": "red",    "value": null},
+              {"color": "yellow", "value": 0.6},
+              {"color": "green",  "value": 0.8}
+            ]
+          }
+        },
+        "overrides": []
+      }
+    },
+    {
+      "id": 5,
+      "title": "Re-retrieval rate (counter rate)",
+      "type": "timeseries",
+      "datasource": {"type": "prometheus", "uid": "${DS_PROMETHEUS}"},
+      "gridPos": {"h": 8, "w": 8, "x": 0, "y": 16},
+      "targets": [
+        {
+          "expr": "rate(meridian_reretrieval_total[5m])",
+          "legendFormat": "{{architecture}}",
+          "refId": "A"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {"unit": "reqps"},
+        "overrides": []
+      }
+    },
+    {
+      "id": 6,
+      "title": "Qdrant collection size (gauge)",
+      "type": "stat",
+      "datasource": {"type": "prometheus", "uid": "${DS_PROMETHEUS}"},
+      "gridPos": {"h": 8, "w": 8, "x": 8, "y": 16},
+      "targets": [
+        {
+          "expr": "meridian_qdrant_chunks_total",
+          "legendFormat": "{{collection}}",
+          "refId": "A"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {"unit": "short", "color": {"mode": "thresholds"}},
+        "overrides": []
+      }
+    },
+    {
+      "id": 7,
+      "title": "Neo4j node count (gauge)",
+      "type": "stat",
+      "datasource": {"type": "prometheus", "uid": "${DS_PROMETHEUS}"},
+      "gridPos": {"h": 8, "w": 8, "x": 16, "y": 16},
+      "targets": [
+        {
+          "expr": "meridian_neo4j_nodes_total",
+          "legendFormat": "{{node_type}}",
+          "refId": "A"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {"unit": "short", "color": {"mode": "thresholds"}},
+        "overrides": []
+      }
+    },
+    {
+      "id": 8,
+      "title": "Cost per query estimate (histogram)",
+      "type": "timeseries",
+      "datasource": {"type": "prometheus", "uid": "${DS_PROMETHEUS}"},
+      "gridPos": {"h": 8, "w": 24, "x": 0, "y": 24},
+      "targets": [
+        {
+          "expr": "histogram_quantile(0.50, rate(meridian_cost_per_query_usd_bucket[10m]))",
+          "legendFormat": "P50 cost {{architecture}}",
+          "refId": "A"
+        },
+        {
+          "expr": "histogram_quantile(0.99, rate(meridian_cost_per_query_usd_bucket[10m]))",
+          "legendFormat": "P99 cost {{architecture}}",
+          "refId": "B"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {"unit": "currencyUSD"},
+        "overrides": []
+      }
+    }
+  ],
+  "refresh": "30s",
+  "schemaVersion": 38,
+  "tags": ["meridian", "rag", "llm"],
+  "templating": {"list": []},
+  "time": {"from": "now-1h", "to": "now"},
+  "timepicker": {},
+  "timezone": "browser",
+  "title": "Meridian RAG Benchmarking",
+  "uid": "meridian-rag-v1",
+  "version": 1
+}

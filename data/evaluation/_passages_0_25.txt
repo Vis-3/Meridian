@@ -1,0 +1,1058 @@
+
+======================================================================
+ENTRY: Q1_Apple_2021
+  file=apple_2021_10k.json  section=Item 1A  len=73012
+  found_kws: ['supply chain', 'single-source', 'semiconductor']
+  missing_kws: ['component shortage', 'sole-source', 'Asia-Pacific', 'Taiwan', 'manufacturing concentration']
+  --- passage 1 [kw: supply chain] ---
+  of protective public safety measures, and the impact of the pandemic on the global economy and demand for consumer products. Additional future impacts on the Company may include, but are not limited to, material adverse effects on demand for the Company's products and services, the Company's supply chain and sales and distribution channels, the Company's ability to execute its strategic plans, and the Company's profitability and cost structure.
+To the extent the COVID-19 pandemic adversely affects the Company's business, results of operations, financial condition and stock price, it may
+  --- passage 2 [kw: supply chain] ---
+  and adverse economic conditions can materially adversely affect the Company's business, results of operations and financial condition.
+The Company has international operations with sales outside the U.S. representing a majority of the Company's total net sales. In addition, the Company's global supply chain is large and complex and a majority of the Company's supplier facilities, including manufacturing and assembly sites, are located outside the U.S. As a result, the Company's operations and performance depend significantly on global and regional economic conditions.
+Adverse macroeconomic
+  --- passage 3 [kw: supply chain] ---
+  products more expensive for customers, which could make the Company's products less competitive and reduce consumer demand. Countries may also adopt other measures, such as controls on imports or exports of goods, technology or data, that could adversely impact the Company's operations and supply chain and limit the Company's ability to offer its products and services as designed. These measures can require the Company to take various actions, including changing suppliers, restructuring business relationships, and ceasing to offer third-party applications on its platforms. Changing th
+  --- passage 4 [kw: supply chain] ---
+  due to their impact on the global economy and demand for consumer products; the imposition of protective public safety measures, such as stringent employee travel restrictions and limitations on freight services and the movement of products between regions; and disruptions in the Company's supply chain and sales and distribution channels, resulting in interruptions of the supply of current products and delays in production ramps of new products.
+While the Company maintains insurance coverage for certain types of losses, such insurance coverage may be insufficient to cover all losses t
+  --- passage 5 [kw: single-source] ---
+  time. While the Company relies on its partners to adhere to its supplier code of conduct, violations of the supplier code of conduct occur from time to time and can materially adversely affect the Company's business, reputation, results of operations and financial condition.
+The Company relies on single-source outsourcing partners in the U.S., Asia and Europe to supply and manufacture many components, and on outsourcing partners primarily located in Asia, for final assembly of substantially all of the Company's hardware products. Any failure of these partners to perform can have a negative i
+  --- passage 6 [kw: semiconductor] ---
+  components, including those that are available from multiple sources, are at times subject to industry-wide shortages and significant commodity pricing fluctuations that can materially adversely affect the Company's business, results of operations and financial condition. For example, the global semiconductor industry is experiencing high demand and shortages of supply, which has adversely affected, and could materially adversely affect, the Company's ability to obtain sufficient quantities of components and products on commercially reasonable terms or at all. While the Company has entered
+  --- passage 7 [kw: supply chain] ---
+  regarding demand for some or all of the Company's products could cause resellers to reduce their ordering and marketing of the Company's products.
+The Company's business and reputation are impacted by information technology system failures and network disruptions.
+The Company and its global supply chain are exposed to information technology system failures or network disruptions caused by natural disasters, accidents, power disruptions, telecommunications failures, acts of terrorism or war, computer viruses, physical or electronic break-ins, ransomware or other cybersecurity incidents,
+  --- passage 8 [kw: supply chain] ---
+  increasing the cost of conducting the Company's global operations. Changes to laws and regulations can adversely affect the Company's business by increasing the Company's costs, limiting the Company's ability to offer a product or service to customers, requiring changes to the Company's supply chain and business practices or otherwise making the Company's products and services less attractive to customers. The Company has implemented policies and procedures designed to ensure compliance with applicable laws and regulations, but there can be no assurance the Company's employees, con
+
+======================================================================
+ENTRY: Q1_Microsoft_2022
+  file=microsoft_2022_10k.json  section=Item 1A  len=74297
+  found_kws: ['supply chain', 'hardware', 'Surface', 'Xbox', 'third-party']
+  missing_kws: ['component availability', 'semiconductor', 'manufacturing disruption']
+  --- passage 1 [kw: hardware] ---
+  accelerate growth. Establishing significant scale in the marketplace is necessary to achieve and maintain attractive margins. We face significant competition from firms that provide competing platforms.
+?
+A competing vertically-integrated model, in which a single firm controls the software and hardware elements of a product and related services, has succeeded with some consumer products such as personal computers, tablets, phones, gaming consoles, wearables, and other endpoint devices. Competitors pursuing this model also earn revenue from services integrated with the hardware and softwar
+  --- passage 2 [kw: third-party] ---
+  offsetting these costs with the revenue received from licensing our products. Many of our competitors also develop and sell software to businesses and consumers under this model.
+?
+Other competitors develop and offer free applications, online services and content, and make money by selling third-party advertising. Advertising revenue funds development of products and services these competitors provide to users at no or little cost, competing directly with our revenue-generating products.
+?
+Some companies compete with us by modifying and then distributing open source software at little
+  --- passage 3 [kw: third-party] ---
+  utility, compatibility, and performance of our cloud-based services on the growing array of computing devices, including PCs, smartphones, tablets, gaming consoles, and other devices, as well as sensors and other IoT endpoints.
+?
+Continuing to enhance the attractiveness of our cloud platforms to third-party developers.
+?
+Ensuring our cloud-based services meet the reliability expectations of our customers and maintain the security of their data as well as help them meet their own compliance needs.
+?
+Making our suite of cloud-based services platform-agnostic, available on a wide range of devi
+  --- passage 4 [kw: Xbox] ---
+  that may not achieve expected returns.
+We will continue to make significant investments in research, development, and marketing for existing products, services, and technologies, including the Windows operating system, Microsoft 365, Office, Bing, SQL Server, Windows Server, Azure, Office 365, Xbox, LinkedIn, and other products and services. We also invest in the development and acquisition of a variety of hardware for productivity, communication, and entertainment including PCs, tablets, gaming devices, and HoloLens. Investments in new technology are speculative. Commercial success depen
+  --- passage 5 [kw: hardware] ---
+  organizations, including state-sponsored organizations or nation-states, continuously undertake attacks that pose threats to our customers and our IT.?These actors may use a wide variety of methods, which may include developing and deploying malicious software or exploiting vulnerabilities in hardware, software, or other infrastructure in order to attack our products and services or gain access to our networks and datacenters, using social engineering techniques to induce our employees, users, partners, or customers to disclose passwords or other sensitive information or take other actio
+  --- passage 6 [kw: supply chain] ---
+  confidential data. For example, system administrators may fail to timely remove employee account access when no longer appropriate. Employees or third parties may intentionally compromise our or our users' security or systems or reveal confidential information. Malicious actors may employ the IT supply chain to introduce malware through software updates or compromised supplier accounts or hardware.
+Cyberthreats are constantly evolving
+and becoming increasingly sophisticated and complex, increasing the difficulty of detecting and successfully defending against them. We may have no current ca
+  --- passage 7 [kw: supply chain] ---
+  or other assets, subject us to ransomware attacks, require us to allocate more resources to improve technologies or remediate the impacts of attacks, or otherwise adversely affect our business.
+The cyberattacks uncovered in late 2020 known as "Solorigate" or "Nobelium" are an example of a supply chain attack where malware was introduced to a software provider's customers, including us, through software updates. The attackers were later able to create false credentials that appeared legitimate to certain customers' systems. We may be targets of further attacks similar to Solorigate/No
+  --- passage 8 [kw: hardware] ---
+  threats are a significant challenge to companies like us whose business is providing technology products and services to others. Threats to our own IT infrastructure can also affect our customers. Customers using our cloud-based services rely on the security of our infrastructure, including hardware and other elements provided by third parties, to ensure the reliability of our services and the protection of their data. Adversaries tend to focus their efforts on the most popular operating systems, programs, and services, including many of ours, and we expect that to continue. In additio
+
+======================================================================
+ENTRY: Q1_Google_2021
+  file=google_2021_10k.json  section=Item 1A  len=84114
+  found_kws: ['supply chain', 'data center', 'hardware', 'component', 'capacity', 'infrastructure']
+  missing_kws: ['servers', 'semiconductor', 'procurement']
+  --- passage 1 [kw: hardware] ---
+  from current operations and, with respect to Other Bets, the use of alternative investment, governance, or compensation structures that may fail to adequately align incentives across the company or otherwise accomplish their objectives.
+Within Google Services, we continue to invest heavily in hardware, including our smartphones, home devices, and wearables, which is a highly competitive market with frequent introduction of new products and services, rapid adoption of technological advancements by competitors, short product life cycles, evolving industry standards, continual improvement i
+  --- passage 2 [kw: infrastructure] ---
+  can be no assurance we will be able to provide hardware that competes effectively.
+Within Google Cloud, we devote significant resources to develop and deploy our enterprise-ready cloud services, including Google Cloud Platform and Google Workspace. We are incurring costs to build and maintain infrastructure to support cloud computing services and hire talent, particularly to support and scale our salesforce. At the same time, our competitors are rapidly developing and deploying cloud-based services. Pricing and delivery models are competitive and evolving, and we may not attain sufficien
+  --- passage 3 [kw: hardware] ---
+  in demand for devices used to access our services, among other factors.
+In addition, we may also experience downward pressure on our operating margin resulting from a variety of factors, such as the continued expansion of our business into new fields, including products and services such as hardware, Google Cloud, and subscription products, as well as significant investments in Other Bets, all of which may have margins lower than those we generate from advertising. We may also experience downward pressure on our operating margins from increasing regulations, increasing competition, and
+  --- passage 4 [kw: supply chain] ---
+  and operating results. Our success will depend largely on our ability to remain a technology leader and continue to provide high-quality, trustworthy, innovative products and services that are truly useful and play a valuable role in a range of settings.
+We face a number of manufacturing and supply chain risks that could harm our financial condition, operating results, and prospects.
+We face a number of risks related to manufacturing and supply chain management, which could affect our ability to supply both our products and our internet-based services.
+We rely on other companies to manu
+  --- passage 5 [kw: capacity] ---
+  parts; to participate in the distribution of our products and services; and to design, manufacture, or assemble certain components and parts in our technical infrastructure. Our business could be negatively affected if we are not able to engage these companies with the necessary capabilities or capacity on reasonable terms, or if those we engage fail to meet their obligations (whether due to financial difficulties or other reasons), or make adverse changes in the pricing or other material terms of our arrangements with them.
+We have experienced and/or may in the future experience supply sh
+  --- passage 6 [kw: component] ---
+  (such as sea level rise, drought, flooding, heat waves, wildfires and resultant air quality effects and power shutoffs associated with wildfire prevention, and increased storm severity), and significant changes in the financial or business condition of our suppliers. In addition, some of the components we use in our technical infrastructure and products are available from only one or limited sources, and we may not be able to find replacement vendors on favorable terms in the event of a supply chain disruption. In addition, a significant supply interruption that affects us or our vendor
+  --- passage 7 [kw: hardware] ---
+  for materials and products that commit us to significant terms and conditions. We may be liable for materials and products that are not consumed due to market acceptance, technological change, obsolescences, quality, product recalls, and warranty issues. For instance, because certain of our hardware supply contracts have volume-based pricing or minimum purchase requirements, if the volume of our hardware sales decreases or does not reach projected targets, we could face increased materials and manufacturing costs or other financial liabilities that could make our products more costly p
+  --- passage 8 [kw: component] ---
+  commitments that may provide them with competitive advantages and may affect our supply.
+12
+Table of Contents
+Alphabet Inc.
+Our products and services have had, and in the future may have, quality issues resulting from design, manufacturing, or operations. Sometimes, these issues may be caused by components we purchase from other manufacturers or suppliers. If the quality of our products and services does not meet expectations or our products or services are defective, it could harm our reputation, financial condition, and operating results.
+We require our suppliers and business partners to
+
+======================================================================
+ENTRY: Q1_Amazon_2021
+  file=amazon_2021_10k.json  section=Item 1A  len=55130
+  found_kws: ['supply chain', 'fulfillment', 'logistics', 'inventory', 'shipping', 'third-party sellers']
+  missing_kws: ['delivery capacity', 'carrier', 'port congestion']
+  --- passage 1 [kw: logistics] ---
+  across geographies, including cross-border competition, and in different industries, including physical, e-commerce, and omnichannel retail, e-commerce services, web and infrastructure computing services, electronic devices, digital content, advertising, grocery, and transportation and logistics services. Some of our current and potential competitors have greater resources, longer histories, more customers, and/or greater brand recognition, particularly with our newly-launched products and services and in our newer geographic regions. They may secure better terms from vendors, ado
+  --- passage 2 [kw: fulfillment] ---
+  media products and enforcement of intellectual property rights;
+?
+business licensing or certification requirements, such as for imports, exports, web services, and electronic devices;
+?
+limitations on the repatriation and investment of funds and foreign currency exchange restrictions;
+?
+limited fulfillment and technology infrastructure;
+?
+shorter payable and longer receivable cycles and the resultant negative impact on cash flow;
+?
+laws and regulations regarding privacy, data use, data protection, data security, network security, consumer protection, payments, advertising, and restrictions
+  --- passage 3 [kw: logistics] ---
+  relationships with third parties that hold PRC licenses to provide services. In India, the government restricts the ownership or control of Indian companies by foreign entities involved in online multi-brand retail trading activities. For www.amazon.in, we provide certain marketing tools and logistics services to third-party sellers to enable them to sell online and deliver to customers, and we hold indirect minority interests in entities that are third-party sellers on the www.amazon.in marketplace. Although we believe these structures and activities comply with existing laws, they inv
+  --- passage 4 [kw: inventory] ---
+  of our retail sales to occur during our fourth quarter. Our failure to stock or restock popular products in sufficient amounts such that we fail to meet customer demand could significantly affect our revenue and our future growth. When we overstock products, we may be required to take significant inventory markdowns or write-offs and incur commitment costs, which could materially reduce profitability. We regularly experience increases in our net shipping cost due to complimentary upgrades, split-shipments, and additional long-zone shipments necessary to ensure timely delivery for the holiday
+  --- passage 5 [kw: fulfillment] ---
+  experience system interruptions that make our websites unavailable or prevent us from efficiently fulfilling orders, which may reduce the volume of goods we offer or sell and the attractiveness of our products and services. In addition, we may be unable
+7
+Table of Contents
+to adequately staff our fulfillment network and customer service centers during these peak periods and delivery and other fulfillment companies and customer service co-sourcers may be unable to meet the seasonal demand. Risks described elsewhere in this Item?1A relating to fulfillment network optimization and inventory are
+  --- passage 6 [kw: inventory] ---
+  described elsewhere in this section and the following:
+?
+our ability to retain and increase sales to existing customers, attract new customers, and satisfy our customers' demands;
+?
+our ability to retain and expand our network of sellers;
+?
+our ability to offer products on favorable terms, manage inventory, and fulfill orders;
+?
+the introduction of competitive stores, websites, products, services, price decreases, or improvements;
+?
+changes in usage or adoption rates of the Internet, e-commerce, electronic devices, and web services, including outside the U.S.;
+?
+timing, effectiveness, and co
+  --- passage 7 [kw: fulfillment] ---
+  benefits to our customers;
+?
+factors affecting our reputation or brand image (including any actual or perceived inability to achieve our goals or commitments, whether related to sustainability, customers, employees, or other topics);
+?
+the extent to which we invest in technology and content, fulfillment, and other expense categories;
+?
+increases in the prices of fuel and gasoline, energy products, commodities like paper and packing supplies and hardware products, and technology infrastructure products;
+?
+constrained labor markets, which increase our payroll costs;
+?
+the extent to which
+  --- passage 8 [kw: fulfillment] ---
+  public health crises) or extreme weather (including as a result of climate change), geopolitical events and security issues (including terrorist attacks and armed hostilities), labor or trade disputes, and similar events.
+We Face Risks Related to Successfully Optimizing and Operating Our Fulfillment Network and Data Centers
+Failures to adequately predict customer demand or otherwise optimize and operate our fulfillment network and data centers successfully from time to time result in excess or insufficient fulfillment or data center capacity, service interruptions, increased costs,
+
+======================================================================
+ENTRY: Q1_Meta_2022
+  file=meta_2022_10k.json  section=Item 1A  len=191862
+  found_kws: ['supply chain', 'hardware', 'Reality Labs', 'Quest', 'component', 'manufacturing', 'inventory']
+  missing_kws: ['VR', 'semiconductor', 'third-party manufacturer']
+  --- passage 1 [kw: Quest] ---
+  shared on our products and services;
+?
+we are unable to continue to develop products for mobile devices that users find engaging, that work with a variety of mobile operating systems and networks, and that achieve a high level of market acceptance;
+?
+there are decreases in user sentiment due to questions about the quality or usefulness of our products or our user data practices, concerns about the nature of content made available on our products, or concerns related to privacy, safety, security, well-being, or other factors;
+?
+we are unable to manage and prioritize information to ensure us
+  --- passage 2 [kw: inventory] ---
+  may be harmed.
+Our advertising revenue can also be adversely affected by a number of other factors, including:
+?
+decreases in user engagement, including time spent on our products;
+?
+our inability to continue to increase user access to and engagement with our products;
+?
+product changes or inventory management decisions we may make that change the size, format, frequency, or relative prominence of ads displayed on our products or of other unpaid content shared by marketers on our products;
+17
+T
+able of Contents
+?
+our inability to maintain or increase marketer demand, the pricing of ou
+  --- passage 3 [kw: Quest] ---
+  of decisions or recommendations from the independent Oversight Board), developers with applications that are integrated with our products, or other companies in our industry;
+?
+reductions of advertising by marketers due to objectionable content made available on our products by third parties, questions about our user data practices or the security of our platform, concerns about brand safety or potential legal liability, or uncertainty regarding their own legal and compliance obligations;
+?
+the effectiveness of our ad targeting or degree to which users opt in or out of the use of data fo
+  --- passage 4 [kw: hardware] ---
+  third parties. We may introduce significant changes to our existing products or acquire or introduce new and unproven products, including using technologies with which we have little or no prior development or operating experience. For example, we do not have significant experience with consumer hardware products or virtual or augmented reality technology, which may adversely affect our ability to successfully develop and market these products and technologies. We continue to incur substantial costs, and we may not be successful in generating profits, in connection with these efforts. We ar
+  --- passage 5 [kw: hardware] ---
+  or services we build for the metaverse is uncertain. We regularly evaluate our product roadmaps and make significant changes as our understanding of the technological challenges and market landscape and our product ideas and designs evolve. In addition, we have limited experience with consumer hardware products and virtual and augmented reality technology, which may enable other companies to compete more effectively than us. We may be unsuccessful in our research and product development efforts, including if we are unable to develop relationships with key participants in the metaverse or
+  --- passage 6 [kw: hardware] ---
+  people who use our products, to attract and retain businesses that use our free or paid business and advertising services, and to attract and retain developers who build compelling applications that integrate with our products. We also compete with companies that develop and deliver consumer hardware and virtual and augmented reality products and services. As we introduce or acquire new products, as our existing products evolve, or as other companies introduce new products and services, including as part of efforts to develop the metaverse or innovate through the application of new tech
+  --- passage 7 [kw: hardware] ---
+  by mobile operating system and browser providers such as Apple and Google;
+?
+the pricing of our ads and other products;
+?
+the diversification and growth of revenue sources beyond advertising on Facebook and Instagram;
+?
+our ability to generate revenue from Payments, or the sale of our consumer hardware products or other products we may introduce in the future;
+?
+changes to existing products or services or the development and introduction of new products or services by us or our competitors;
+?
+user behavior or product changes that may reduce traffic to features or products that we successf
+  --- passage 8 [kw: manufacturing] ---
+  review efforts, including as a result of implementing changes to our practices, whether voluntarily, in connection with laws, regulations, regulatory actions, or decisions or recommendations from the independent Oversight Board, or otherwise;
+?
+costs and expenses related to the development, manufacturing, and delivery of our consumer hardware products;
+?
+our ability to maintain gross margins and operating margins;
+?
+costs related to acquisitions, including costs associated with amortization and additional investments to develop the acquired technologies;
+?
+charges associated with impai
+
+======================================================================
+ENTRY: Q2_Apple_2024
+  file=apple_2024_10k.json  section=Item 1  len=15779
+  found_kws: ['competition', 'smartphone', 'services', 'streaming', 'App Store']
+  missing_kws: ['artificial intelligence', 'Android', 'Google', 'Samsung', 'payments']
+  --- passage 1 [kw: smartphone] ---
+  Item 1.
+Business
+1
+Item 1.????Business
+Company Background
+The Company designs, manufactures and markets smartphones, personal computers, tablets, wearables and accessories, and sells a variety of related services. The Company's fiscal year is the 52- or 53-week period that ends on the last Saturday of September.
+Products
+iPhone
+iPhone
+?
+is the Company's line of smartphones based on its iOS operating s
+  --- passage 2 [kw: streaming] ---
+  ?
+Series 10 and Apple Watch SE
+?
+. The Company's line of wireless headphones includes AirPods
+?
+, AirPods Pro
+?
+, AirPods Max
+?
+and Beats
+?
+products. Apple Vision Pro? is the Company's first spatial computer based on its visionOS? operating system.
+Home includes Apple TV
+?
+, the Company's media streaming and gaming device based on its tvOS
+?
+operating system, and HomePod
+?
+and HomePod mini
+?
+, high-fidelity wireless smart speakers.
+Accessories includes Apple-branded and third-party accessories.
+Apple Inc. | 2024 Form 10-K | 1
+Services
+Advertising
+The Company's advertising services include
+  --- passage 3 [kw: services] ---
+  Company's own advertising platforms.
+AppleCare
+The Company offers a portfolio of fee-based service and support products under the AppleCare
+?
+brand. The offerings provide priority access to Apple technical support, access to the global Apple authorized service network for repair and replacement services, and in many cases additional coverage for instances of accidental damage or theft and loss, depending on the country and type of product.
+Cloud Services
+The Company's cloud services store and keep customers' content up-to-date and available across multiple Apple devices and Windows persona
+  --- passage 4 [kw: services] ---
+  Apple Fitness+
+SM
+, a personalized fitness service; Apple Music
+?
+, which offers users a curated listening experience with on-demand radio stations; Apple News+
+?
+, a subscription news and magazine service; and Apple TV+
+?
+, which offers exclusive original content and live sports.
+Payment Services
+The Company offers payment services, including Apple Card
+?
+, a co-branded credit card, and Apple Pay
+?
+, a cashless payment service.
+Segments
+The Company manages its business primarily on a geographic basis. The Company's reportable segments consist of the Americas, Europe, Greater China,
+  --- passage 5 [kw: services] ---
+  East and Africa. Greater China includes China mainland, Hong Kong and Taiwan. Rest of Asia Pacific includes Australia and those Asian countries not included in the Company's other reportable segments. Although the reportable segments provide similar hardware and software products and similar services, each one is managed separately to better align with the location of the Company's customers and distribution partners and the unique market dynamics of each geographic region.
+Markets and Distribution
+The Company's customers are primarily in the consumer, small and mid-sized business, educ
+  --- passage 6 [kw: competition] ---
+  also employs a variety of indirect distribution channels, such as third-party cellular network carriers, wholesalers, retailers and resellers. During 2024, the Company's net sales through its direct and indirect distribution channels accounted for 38% and 62%, respectively, of total net sales.
+Competition
+The markets for the Company's products and services are highly competitive, and are characterized by aggressive price competition and resulting downward pressure on gross margins, frequent introduction of new products and services, short product life cycles, evolving industry standards,
+  --- passage 7 [kw: services] ---
+  pricing and very low cost structures, and by imitating the Company's products and infringing on its intellectual property.
+Apple Inc. | 2024 Form 10-K | 2
+The Company's ability to compete successfully depends heavily on ensuring the continuing and timely introduction of innovative new products, services and technologies to the marketplace. The Company designs and develops nearly the entire solution for its products, including the hardware, operating system, numerous software applications and related services. Principal competitive factors important to the Company include price, product and
+  --- passage 8 [kw: smartphone] ---
+  and performance, product and service quality and reliability, design innovation, a strong third-party software and accessories ecosystem, marketing and distribution capability, service and support, and corporate reputation.
+The Company is focused on expanding its market opportunities related to smartphones, personal computers, tablets, wearables and accessories, and services. The Company faces substantial competition in these markets from companies that have significant technical, marketing, distribution and other resources, as well as established hardware, software, and service offerings
+
+======================================================================
+ENTRY: Q2_Microsoft_2023
+  file=microsoft_2023_10k.json  section=Item 1  len=72918
+  found_kws: ['competition', 'cloud', 'Azure', 'Amazon', 'Google', 'artificial intelligence', 'OpenAI', 'Copilot', 'enterprise']
+  missing_kws: ['market share']
+  --- passage 1 [kw: artificial intelligence] ---
+  Embracing Our Future
+Microsoft is a technology company whose mission is to empower every person and every organization on the planet to achieve more. We strive to create local opportunity, growth, and impact in every country around the world. We are creating the platforms and tools
+,
+powered by artificial intelligence ("
+AI
+"), that deliver better, faster, and more effective solutions to support small and large business competitiveness, improve educational and health outcomes, grow public-sector efficiency,  and empower human ingenuity. From infrastructure and data, to business application
+  --- passage 2 [kw: cloud] ---
+  portfolio with AI capabilities to help people and organizations overcome today's challenges and emerge stronger. Customers are looking to unlock value from their digital spend and innovate for this next generation of AI, while simplifying security and management. Those leveraging the Microsoft Cloud are best positioned to take advantage of technological advancements and drive innovation. Our investment in AI spans the entire company, from Microsoft Teams and Outlook, to Bing and Xbox, and we are infusing generative AI capability into our consumer and commercial offerings to deliver copilo
+  --- passage 3 [kw: cloud] ---
+  security, inclusiveness, transparency, and accountability.
+What We Offer
+Founded in 1975, we develop and support software, services, devices, and solutions that deliver new value for customers and help people and businesses realize their full potential.
+We offer an array of services, including cloud-based solutions that provide customers with software, services, platforms, and content, and we provide solution support and consulting services. We also deliver relevant online advertising to a global audience.
+Our products include operating systems, cross-device productivity and collaboration
+  --- passage 4 [kw: cloud] ---
+  tablets, gaming and entertainment consoles, other intelligent devices, and related accessories.
+The Ambitions That Drive Us
+To achieve our vision, our research and development efforts focus on three interconnected ambitions:
+?
+Reinvent productivity and business processes.
+?
+Build the intelligent cloud and intelligent edge platform.
+?
+Create more personal computing.
+Reinvent Productivity and Business Processes
+At Microsoft, we provide technology and resources to help our customers create a secure, productive work environment. Our family of products plays a key role in the ways the world work
+  --- passage 5 [kw: Copilot] ---
+  and data protection. Microsoft Teams is a comprehensive platform for work, with meetings, calls, chat, collaboration, and business process automation. Microsoft Viva is an employee experience platform that brings together communications, knowledge, learning, resources, and insights. Microsoft 365 Copilot combines next-generation AI with business data in the Microsoft Graph and Microsoft 365 applications.
+Together with the Microsoft Cloud, Dynamics 365, Microsoft Teams, and our AI offerings bring a new era of collaborative applications that optimize business functions, processes, and applicat
+  --- passage 6 [kw: cloud] ---
+  is helping domain experts drive productivity gains with low-code/no-code tools, robotic process automation, virtual agents, and business intelligence. In a dynamic labor market, LinkedIn is helping professionals use the platform to connect, learn, grow, and get hired.
+Build the Intelligent Cloud and Intelligent Edge
+Platform
+As digital transformation and adoption of AI accelerates and revolutionizes more business workstreams, organizations in every sector across the globe can address challenges that will have a fundamental impact on their success. For enterprises, digital technology e
+  --- passage 7 [kw: cloud] ---
+  engages customers, and in some cases, changes the very core of products and services. We continue to invest in high performance and sustainable computing to meet the growing demand for fast access to Microsoft services provided by our network of cloud computing infrastructure and datacenters.
+Our cloud business benefits from three economies of scale: datacenters that deploy computational resources at significantly lower cost per unit than smaller ones; datacenters that coordinate and aggregate diverse customer, geographic, and application demand patterns, improving the utilization of computi
+  --- passage 8 [kw: cloud] ---
+  storage, and network resources; and multi-tenancy locations that lower application maintenance labor costs.
+The Microsoft Cloud provides the best integration across the technology stack while offering openness, improving time to value, reducing costs, and increasing agility. Being a global-scale cloud, Azure uniquely offers hybrid consistency, developer productivity, AI capabilities, and trusted security and compliance. We see more emerging use cases and needs for compute and security at the edge and are accelerating our innovation across the spectrum of intelligent edge devices, from Inter
+
+======================================================================
+ENTRY: Q2_Google_2023
+  file=google_2023_10k.json  section=Item 1A  len=84865
+  found_kws: ['competition', 'Search', 'artificial intelligence', 'generative AI', 'advertising']
+  missing_kws: ['large language model', 'ChatGPT', 'Bing', 'Microsoft', 'query']
+  --- passage 1 [kw: advertising] ---
+  including but not limited to those described below, which could harm our business, reputation, financial condition, and operating results, and affect the trading price of our Class A and Class C stock.
+Risks Specific to our Company
+We generate a significant portion of our revenues from advertising. Reduced spending by advertisers, a loss of partners, or new and existing technologies that block ads online and/or affect our ability to customize ads could harm our business.
+We generated more than 75% of total revenues from online advertising in 2023. Many of our advertisers, companie
+  --- passage 2 [kw: advertising] ---
+  contracts with us at any time. These partners may not continue to do business with us if we do not create more value (such as increased numbers of users or customers, new sales leads, increased brand awareness, or more effective monetization) than their available alternatives. Changes to our advertising policies and data privacy practices, such as our initiatives to phase out third-party cookies, as well as changes to other companies' advertising and/or data privacy practices have in the past, and may in the future, affect the advertising that we are able to provide. In addition, techno
+  --- passage 3 [kw: advertising] ---
+  effectively and competitively could harm our business, reputation, financial condition, and operating results.
+In addition, expenditures by advertisers tend to correlate with overall economic conditions. Adverse macroeconomic conditions have affected, and may in the future affect, the demand for advertising, resulting in fluctuations in the amounts our advertisers spend on advertising, which could harm our financial condition and operating results.
+We face intense competition. If we do not continue to innovate and provide products and services that are useful to users, customers, and other
+  --- passage 4 [kw: competition] ---
+  They can use their experience and resources in ways that could affect our competitive position, including by making acquisitions and entering into other strategic arrangements; continuing to invest heavily in technical infrastructure, R&D, and in talent; initiating intellectual property and competition claims (whether or not meritorious); and continuing to compete for users, advertisers, customers, and content providers. Further, discrepancies in enforcement of existing laws may enable our lesser known competitors to aggressively interpret those laws without commensurate scrutiny, ther
+  --- passage 5 [kw: advertising] ---
+  and technologies is inherently risky, and could divert management attention and harm our business, financial condition, and operating results.
+We have invested and expect to continue to invest in new businesses, products, services, and technologies in a wide range of industries beyond online advertising. The investments that we are making across our businesses, such as building AI capabilities into new and existing products and services, reflect our ongoing efforts to innovate and provide products and services that are helpful to users, advertisers, publishers, customers, and content pr
+  --- passage 6 [kw: competition] ---
+  and seek partners to deliver localized services in other countries, and we may not be able to meet sovereign operating requirements.
+Within Other Bets, we are investing significantly in the areas of health, life sciences, and transportation, among others. These investment areas face intense competition from large, experienced, and well-funded competitors, and our offerings, many of which involve the development of new and emerging technologies, may not be successful, or be able to compete effectively or operate at sufficient levels of profitability.
+In addition, new and evolving produc
+  --- passage 7 [kw: competition] ---
+  pressure on our operating margin in the future.
+Our revenue growth rate could decline over time as a result of a number of factors, including changes in the devices and modalities used to access our products and services; changes in geographic mix; deceleration or declines in advertiser spending; competition; customer usage and demand for our products; decreases in our pricing of our products and services; ongoing product and policy changes; and shifts to lower priced products and services.
+In addition, we may experience downward pressure on our operating margin resulting from a variety of f
+  --- passage 8 [kw: advertising] ---
+  in particular from the continued expansion of our business into new fields, including products and services such as our devices, Google Cloud, and consumer subscription products, as well as significant investments in Other Bets, all of which may have margins lower than those we generate from advertising. In particular, margins on our devices have had, and may continue to have, an adverse effect on our consolidated margins due to pressures on pricing and higher cost of sales. We may also experience
+12.
+Table of Contents
+Alphabet Inc.
+downward pressure on our operating margins from increa
+
+======================================================================
+ENTRY: Q2_Amazon_2023
+  file=amazon_2023_10k.json  section=Item 1  len=13252
+  found_kws: ['competition', 'retail', 'AWS', 'cloud', 'advertising', 'marketplace', 'Prime']
+  missing_kws: ['Microsoft', 'Google', 'Walmart', 'third-party sellers']
+  --- passage 1 [kw: AWS] ---
+  long-term thinking. In each of our segments, we serve our primary customer sets, consisting of consumers, sellers, developers, enterprises, content creators, advertisers, and employees.
+We have organized our operations into three segments: North America, International, and Amazon Web Services ("AWS"). These segments reflect the way the Company evaluates its business performance and manages its operations. Information on our net sales is contained in Item?8 of Part II, "Financial Statements and Supplementary Data -- Note 10 -- Segment Information."
+Consumers
+We serve consumers through our onl
+  --- passage 2 [kw: Prime] ---
+  including Kindle, Fire tablet, Fire TV, Echo, Ring, Blink, and eero, and we develop and produce media content. We seek to offer our customers low prices, fast and free delivery, easy-to-use functionality, and timely customer service. In addition, we offer subscription services such as Amazon Prime, a membership program that includes fast, free shipping on tens of millions of items, access to award-winning movies and series, and other benefits.
+We fulfill customer orders in a number of ways, including through: North America and International fulfillment networks that we operate; co-sourc
+  --- passage 3 [kw: AWS] ---
+  We earn fixed fees, a percentage of sales, per-unit activity fees, interest, or some combination thereof, for our seller programs.
+Developers and Enterprises
+We serve developers and enterprises of all sizes, including start-ups, government agencies, and academic institutions, through AWS, which offers a broad set of on-demand technology services, including compute, storage, database, analytics, and machine learning, and other services.
+Content Creators
+We offer programs that allow authors, independent publishers, musicians, filmmakers, Twitch streamers, skill and app developers,
+  --- passage 4 [kw: marketplace] ---
+  advertising services to sellers, vendors, publishers, authors, and others, through programs such as sponsored ads, display, and video advertising.
+3
+Table of Contents
+Competition
+Our businesses encompass a large variety of product types, service offerings, and delivery channels. The worldwide marketplace in which we compete is evolving rapidly and intensely competitive, and we face a broad array of competitors from many different industry sectors around the world. Our current and potential competitors include: (1)?physical, e-commerce, and omnichannel retailers, publishers, vendors, dist
+  --- passage 5 [kw: retail] ---
+  and interactive media of all types and all distribution channels; (3)?web search engines, comparison shopping websites, social networks, web portals, and other online and app-based means of discovering, using, or acquiring goods and services, either directly or in collaboration with other retailers; (4)?companies that provide e-commerce services, including website development and hosting, omnichannel sales, inventory and supply chain management, advertising, fulfillment, customer service, and payment processing; (5)?companies that provide fulfillment and logistics services for themse
+  --- passage 6 [kw: advertising] ---
+  including on-premises or cloud-based infrastructure and other services; (7)?companies that design, manufacture, market, or sell consumer electronics, telecommunication, and electronic devices; (8) companies that sell grocery products online and in physical stores; and (9) companies that provide advertising services, whether in digital or other formats. We believe that the principal competitive factors in our retail businesses include selection, price, and convenience, including fast and reliable fulfillment. Additional competitive factors for our seller and enterprise services include the
+  --- passage 7 [kw: competition] ---
+  Human Capital
+Our employees are critical to our mission of being Earth's most customer-centric company. As of December?31, 2023, we employed approximately 1,525,000 full-time and part-time employees. Additionally, we use independent contractors and temporary personnel to supplement our workforce. Competition for qualified personnel is intense, particularly for software engineers, computer scientists, and other technical staff, and constrained labor markets have increased competition for personnel across other parts of our business.
+As we strive to be Earth's best employer, we focus on invest
+
+======================================================================
+ENTRY: Q2_Meta_2022
+  file=meta_2022_10k.json  section=Item 1A  len=191862
+  found_kws: ['competition', 'TikTok', 'Reels', 'engagement', 'time spent', 'advertising']
+  missing_kws: ['short-form video', 'user attention', 'ByteDance', 'youth']
+  --- passage 1 [kw: engagement] ---
+  affect our business, financial condition, results of operations, cash flows, and prospects. These risks are discussed more fully below and include, but are not limited to, risks related to:
+Risks Related to Our Product Offerings
+?
+our ability to add and retain users and maintain levels of user engagement with our products;
+?
+the loss of, or reduction in spending by, our marketers;
+?
+reduced availability of data signals used by our ad targeting and measurement tools;
+?
+ineffective operation with mobile operating systems or changes in our relationships with mobile operating system partners;
+  --- passage 2 [kw: advertising] ---
+  Risks Related to Our Business Operations and Financial Results
+?
+our ability to compete effectively;
+?
+fluctuations in our financial results;
+?
+unfavorable media coverage and other risks affecting our ability to maintain and enhance our brands;
+?
+the COVID-19 pandemic, including its impact on our advertising business;
+?
+acquisitions and our ability to successfully integrate our acquisitions;
+?
+our ability to build, maintain, and scale our technical infrastructure, and risks associated with disruptions in our service;
+?
+operating our business in multiple countries around the world;
+?
+litigati
+  --- passage 3 [kw: competition] ---
+  Risks Related to Government Regulation and Enforcement
+?
+government restrictions on access to Facebook or our other products, or other actions that impair our ability to sell advertising, in their countries;
+?
+complex and evolving U.S. and foreign privacy, data use and data protection, content, competition, consumer protection, and other laws and regulations;
+14
+T
+able of Contents
+?
+the impact of government investigations, enforcement actions, and settlements, including litigation and investigations by privacy and competition authorities;
+?
+our ability to comply with regulatory and legisla
+  --- passage 4 [kw: engagement] ---
+  the dual class structure of our common stock and the control of a majority of the voting power of our outstanding capital stock by our founder, Chairman, and CEO.
+Risks Related to Our Product Offerings
+If we fail to retain existing users or add new users, or if our users decrease their level of engagement with our products, our revenue, financial results, and business may be significantly harmed.
+The size of our user base and our users' level of engagement across our products are critical to our success. Our financial performance has been and will continue to be significantly determined by
+  --- passage 5 [kw: engagement] ---
+  particularly for Facebook and Instagram. We have experienced, and expect to continue to experience, fluctuations and declines in the size of our active user base in one or more markets from time to time, particularly in markets where we have achieved higher penetration rates. User growth and engagement are also impacted by a number of other factors, including competitive products and services, such as TikTok, that have reduced some users' engagement with our products and services, as well as global and regional business, macroeconomic, and geopolitical conditions. For example, the COVID
+  --- passage 6 [kw: engagement] ---
+  may adversely impact our ability to deliver ad impressions and, in turn, our financial performance.
+If people do not perceive our products to be useful, reliable, and trustworthy, we may not be able to attract or retain users or otherwise maintain or increase the frequency and duration of their engagement. A number of other social networking companies that achieved early popularity have since seen their active user bases or levels of engagement decline, in some cases precipitously. There is no guarantee that we will not experience a similar erosion of our active user base or engagement lev
+  --- passage 7 [kw: engagement] ---
+  factors;
+?
+we are unable to manage and prioritize information to ensure users are presented with content that is appropriate, interesting, useful, and relevant to them;
+?
+we are unable to obtain or attract engaging third-party content;
+?
+we are unable to successfully maintain or grow usage of and engagement with applications that integrate with our products;
+?
+users adopt new technologies where our products may be displaced in favor of other products or services, or may not be featured or otherwise available;
+?
+there are changes mandated by legislation, government and regulatory authorities,
+  --- passage 8 [kw: engagement] ---
+  in our business operations, as a result of European regulators, courts, or legislative bodies determining that our reliance on Standard Contractual Clauses (SCCs) or other legal bases we rely upon to transfer user data from the European Union to the United States is invalid;
+?
+there is decreased engagement with our products, or failure to accept our terms of service, as part of privacy-focused changes that we have implemented or may implement in the future, whether voluntarily, in connection with the General Data Protection Regulation (GDPR), the European Union's ePrivacy Directive, the Cal
+
+======================================================================
+ENTRY: Q3_Apple_2023
+  file=apple_2023_10k.json  section=Item 1A  len=75278
+  found_kws: ['macroeconomic', 'foreign exchange', 'currency', 'consumer spending', 'inflation', 'interest rate', 'demand']
+  missing_kws: ['Greater China', 'economic slowdown']
+  --- passage 1 [kw: macroeconomic] ---
+  section should be read in conjunction with Part II, Item 7, "Management's Discussion and Analysis of Financial Condition and Results of Operations" and the consolidated financial statements and accompanying notes in Part II, Item 8, "Financial Statements and Supplementary Data" of this Form 10-K.
+Macroeconomic and Industry Risks
+The Company's operations and performance depend significantly on global and regional economic conditions and adverse economic conditions can materially adversely affect the Company's business, results of operations and financial condition.
+The Company has internation
+  --- passage 2 [kw: macroeconomic] ---
+  global supply chain is large and complex and a majority of the Company's supplier facilities, including manufacturing and assembly sites, are located outside the U.S. As a result, the Company's operations and performance depend significantly on global and regional economic conditions.
+Adverse macroeconomic conditions, including slow growth or recession, high unemployment, inflation, tighter credit, higher interest rates, and currency fluctuations, can adversely impact consumer confidence and spending and materially adversely affect demand for the Company's products and services. In addit
+  --- passage 3 [kw: consumer spending] ---
+  Such events can make it difficult or impossible for the Company to manufacture and deliver products to its customers, create delays and inefficiencies in the Company's supply and manufacturing chain, and result in slowdowns and outages to the Company's service offerings, and negatively impact consumer spending and demand in affected areas. Following an interruption to its business, the Company can require substantial recovery time, experience significant expenditures to resume operations, and lose significant sales. Because the Company relies on single or limited sources for the supply a
+  --- passage 4 [kw: demand] ---
+  life, disruption to the Company's business, and harm to the Company's reputation. Major public health issues, including pandemics such as the COVID-19 pandemic, have adversely affected, and could in the future materially adversely affect, the Company due to their impact on the global economy and demand for consumer products; the imposition of protective public safety measures, such as stringent employee travel restrictions and limitations on freight services and the movement of products between regions; and disruptions in the Company's operations, supply chain and sales and distribution cha
+  --- passage 5 [kw: demand] ---
+  ability to continually improve its products and services to maintain their functional and design advantages. There can be no assurance the Company will be able to continue to provide products and services that compete effectively.
+Business Risks
+To remain competitive and stimulate customer demand, the Company must successfully manage frequent introductions and transitions of products and services.
+Due to the highly volatile and competitive nature of the markets and industries in which the Company competes, the Company must continually introduce new products, services and technologies,
+  --- passage 6 [kw: demand] ---
+  market acceptance, the Company's ability to manage the risks associated with new technologies and production ramp-up issues, the availability of application software for the Company's products, the effective management of purchase commitments and inventory levels in line with anticipated product demand, the availability of products in appropriate quantities and at expected costs to meet anticipated demand, and the risk that new products and services may have quality or other defects or deficiencies. There can be no assurance the Company will successfully manage future introductions and tran
+  --- passage 7 [kw: demand] ---
+  sources, are at times subject to industry-wide shortages and significant commodity pricing fluctuations that can materially adversely affect the Company's business, results of operations and financial condition. For example, the global semiconductor industry has in the past experienced high demand and shortages of supply, which adversely affected the Company's ability to obtain sufficient quantities of components and products on commercially reasonable terms or at all. Such disruptions could occur in the future. While the Company has entered into agreements for the supply of many compo
+  --- passage 8 [kw: demand] ---
+  warranty and other expenses, including litigation costs and regulatory fines. Quality problems can also adversely affect the experience for users of the Company's products and services, and result in harm to the Company's reputation, loss of competitive advantage, poor market acceptance, reduced demand for products and services, delay in new product and service introductions and lost sales.
+Apple Inc. | 2023 Form 10-K | 8
+The Company is exposed to the risk of write-downs on the value of its inventory and other assets, in addition to purchase commitment cancellation risk.
+The Company records
+
+======================================================================
+ENTRY: Q3_Microsoft_2022
+  file=microsoft_2022_10k.json  section=Item 1A  len=74297
+  found_kws: ['foreign exchange', 'currency', 'inflation', 'interest rate', 'Ukraine', 'geopolitical']
+  missing_kws: ['macroeconomic', 'PC market', 'enterprise spending', 'Russia']
+  --- passage 1 [kw: Ukraine] ---
+  of service or other coordinated attacks. Nation-state and state-sponsored actors can deploy significant resources to plan and carry out exploits. Nation-state attacks against us or our customers may intensify during periods of intense diplomatic or armed conflict, such as the ongoing conflict in Ukraine. Inadequate account security practices may also result in unauthorized access to confidential data. For example, system administrators may fail to timely remove employee account access when no longer appropriate. Employees or third parties may intentionally compromise our or our users' secur
+  --- passage 2 [kw: geopolitical] ---
+  network infrastructure to handle more traffic on our websites and in our datacenters. Our datacenters depend on predictable energy and networking supplies, the cost or availability of which could be adversely affected by a variety of factors, including the transition to a clean energy economy and geopolitical disruptions. These demands continue to increase as we introduce new products and services and support the growth of existing services such as Bing, Azure, Microsoft Account services, Microsoft 365, Microsoft Teams, Dynamics 365, OneDrive, SharePoint Online, Skype, Xbox, and Outlook.com.
+  --- passage 3 [kw: Ukraine] ---
+  and communication technologies into our supply chain and allow for government review of transactions involving information and communications technology from countries determined to be foreign adversaries. Periods of intense diplomatic or armed conflict, such as the ongoing conflict in Ukraine, may result in (1) new and rapidly evolving sanctions and trade restrictions, which may impair trade with sanctioned individuals and countries, and (2) negative impacts to regional trade ecosystems among our customers, partners, and us. Non-compliance with sanctions as well as general ecosys
+  --- passage 4 [kw: inflation] ---
+  and magnitude of negative brand events. If our brands or reputation are damaged, it could negatively impact our revenues or margins, or ability to attract the most highly qualified employees.
+Adverse economic or market conditions may harm our business.
+Worsening economic conditions, including inflation, recession, pandemic, or other changes in economic conditions, may cause lower IT spending and adversely affect our revenue. If demand for PCs, servers, and other computing devices declines, or consumer or business spending for those products declines, our revenue will be adversely affecte
+  --- passage 5 [kw: interest rate] ---
+  for products and services they have purchased. As a result, allowances for doubtful accounts and write-offs of accounts receivable may increase.
+We maintain an investment portfolio of various holdings, types, and maturities. These investments are subject to general credit, liquidity, market, and interest rate risks, which may be exacerbated by market downturns or events that affect global financial markets. A significant part of our investment portfolio comprises U.S. government securities. If global financial markets decline for long periods, or if there is a downgrade of the U.S. governme
+  --- passage 6 [kw: geopolitical] ---
+  default on government debt, our investment portfolio may be adversely affected and we could determine that more of our investments have experienced a decline in fair value, requiring impairment charges that could adversely affect our consolidated financial statements.
+Catastrophic events or geopolitical conditions may disrupt our business.
+A disruption or failure of our systems or operations because of a major earthquake, weather event, cyberattack, terrorist attack, pandemic, or other catastrophic event could cause delays in completing sales, providing services, or performing other cr
+  --- passage 7 [kw: Ukraine] ---
+  on the resilience of our systems and strength of our business continuity management plans and magnifies the potential impact of prolonged service outages in our consolidated financial statements.
+Abrupt political change, terrorist activity, and armed conflict, such as the ongoing conflict in Ukraine, pose a risk of general economic disruption in affected countries, which may increase our operating costs and negatively impact our ability to sell to and collect from customers in affected markets. These conditions also may add uncertainty to the timing and budget for technology investment
+  --- passage 8 [kw: geopolitical] ---
+  and may cause supply chain disruptions for hardware manufacturers. Geopolitical change may result in changing regulatory systems and requirements and market interventions that could impact our operating strategies, access to national, regional, and global markets, hiring, and profitability. Geopolitical instability may lead to sanctions and impact our ability to do business in some markets or with some public-sector customers. Any of these changes may negatively impact our revenues.
+The occurrence of regional epidemics or a global pandemic such as COVID-19 may adversely affect our oper
+
+======================================================================
+ENTRY: Q3_Google_2022
+  file=google_2022_10k.json  section=Item 7  len=66137
+  found_kws: ['advertising', 'foreign exchange', 'currency']
+  missing_kws: ['macroeconomic', 'digital advertising', 'inflation', 'recession', 'ad spend', 'slowdown', 'budget']
+  --- passage 1 [kw: advertising] ---
+  included in Item 8 of this Annual Report on Form 10-K.
+Trends in Our Business and Financial Effect
+The following long-term trends have contributed to the results of our consolidated operations, and we anticipate that they will continue to affect our future results:
+?
+Users' behaviors and advertising continue to shift online as the digital economy evolves.
+The continuing shift from an offline to online world has contributed to the growth of our business and our revenues since inception. We expect that this shift to an online world will continue to benefit our business and our revenue
+  --- passage 2 [kw: advertising] ---
+  outsized growth in our advertising revenues during the COVID-19 pandemic. In addition, we face increasing competition for user engagement and advertisers, which may affect our revenues.
+?
+Users continue to access our products and services using diverse devices and modalities, which allows for new advertising formats that may benefit our revenues but adversely affect our margins.
+Our users are accessing the Internet via diverse devices and modalities, such as smartphones, wearables, and smart home devices, and want to be able to be connected no matter where they are or what they are doing. We
+  --- passage 3 [kw: advertising] ---
+  revenues generated from different channels, including mobile, and newer advertising formats. The margins from these channels and newer products have generally been lower than those from traditional desktop search. Additionally, as the market for a particular device type or modality matures, our advertising revenues may be affected. For example, growth in the global smartphone market has slowed due to various factors, including increased market saturation in developed countries, which can affect our mobile advertising revenues.
+We expect TAC paid to our distribution partners and Google Netw
+  --- passage 4 [kw: advertising] ---
+  as our revenues grow and TAC as a percentage of our advertising revenues ("TAC rate") to be affected by changes in device mix; geographic mix; partner mix; partner agreement terms; the percentage of queries channeled through paid access points; product mix; the relative revenue growth rates of advertising revenues from different channels; and revenue share terms.
+We expect these trends to continue to affect our revenues and put pressure on our margins.
+?
+As online advertising evolves, we continue to expand our product offerings, which may affect our monetization.
+As interactions between u
+  --- passage 5 [kw: foreign exchange] ---
+  new products and services we generally focus first on user experience before prioritizing monetization.
+?
+As users in developing economies increasingly come online, our revenues from international markets continue to increase, and may require continued investments. In addition, movements in foreign exchange rates affect such revenues.
+The shift to online, as well as the advent of the multi-device world, has brought opportunities outside of the U.S., including in emerging markets, such as India. We continue to invest heavily and develop localized versions of our products and advertising
+  --- passage 6 [kw: currency] ---
+  particularly as low-cost mobile devices become more available. This trend could affect our revenues as developing markets initially monetize at a lower rate than more mature markets.
+International revenues represent a significant portion of our revenues and are subject to fluctuations in foreign currency exchange rates relative to the U.S. dollar. While we have a foreign exchange risk management program designed to reduce our exposure to these fluctuations, this program does not fully offset their effect on our revenues and earnings.
+?
+The revenues that we derive from non-advertising produc
+  --- passage 7 [kw: advertising] ---
+  services are increasing and may adversely affect our margins.
+Non-advertising revenues have grown over time, and we expect this trend to continue as we focus on expanding our products and services. The margins on these revenues vary significantly and are generally lower than the margins on our advertising revenues. In particular margins on our hardware products adversely affect our consolidated margins due to pressures on pricing and higher cost of sales.
+?
+As we continue to serve our users and expand our businesses, we will invest heavily in operating and capital expenditures.
+We continu
+  --- passage 8 [kw: advertising] ---
+  expect to continue hiring talented employees around the globe and to provide competitive compensation programs. For additional information see Culture and Workforce in Part I, Item 1 "Business."
+Revenues and Monetization Metrics
+We generate revenues by delivering relevant, cost-effective online advertising; cloud-based solutions that provide enterprise customers of all sizes with infrastructure and platform services as well as communication and collaboration tools; sales of other products and services, such as apps and in-app purchases, and hardware; and fees received for subscription-base
+
+======================================================================
+ENTRY: Q3_Amazon_2022
+  file=amazon_2022_10k.json  section=Item 7  len=55495
+  found_kws: ['macroeconomic', 'consumer spending', 'inflation', 'operating costs', 'labor', 'fulfillment', 'interest rate', 'foreign exchange', 'recession']
+  missing_kws: ['energy']
+  --- passage 1 [kw: foreign exchange] ---
+  intends, and similar expressions to identify forward-looking statements. Forward-looking statements reflect management's current expectations and are inherently uncertain. Actual results and outcomes could differ materially for a variety of reasons, including, among others, fluctuations in foreign exchange rates, changes in global economic conditions and customer demand and spending, inflation, interest rates, regional labor market and global supply chain constraints, world events, the rate of growth of the Internet, online commerce, and cloud services, the amount that Amazon.com inve
+  --- passage 2 [kw: fulfillment] ---
+  from products as compared with services, the extent to which we owe income or other taxes, competition, management of growth, potential fluctuations in operating results, international growth and expansion, the outcomes of claims, litigation, government investigations, and other proceedings, fulfillment, sortation, delivery, and data center optimization, risks of inventory management, variability in demand, the degree to which we enter into, maintain, and develop commercial agreements, proposed and completed acquisitions and strategic transactions, payments risks, and risks of fulfillme
+  --- passage 3 [kw: fulfillment] ---
+  and recognize our net share of revenue of items sold by third-party sellers as service sales. We seek to increase unit sales across our stores, through increased product selection, across numerous product categories. We also offer other services such as compute, storage, and database offerings, fulfillment, advertising, publishing, and digital content subscriptions.
+Our financial focus is on long-term, sustainable growth in free cash flows.
+Free cash flows are driven primarily by increasing operating income and efficiently managing accounts receivable, inventory, accounts payable, and cash
+  --- passage 4 [kw: fulfillment] ---
+  necessary to run AWS, and a portion of our marketing costs. Our fixed costs include the costs necessary to build and run our technology infrastructure; to build, enhance, and add features to our online stores, web services, electronic devices, and digital offerings; and to build and optimize our fulfillment network. Variable costs generally change directly with sales volume, while fixed costs generally are dependent on the timing of capacity needs, geographic expansion, category expansion, and other factors. To decrease our variable costs on a per unit basis and enable us to lower prices fo
+  --- passage 5 [kw: fulfillment] ---
+  by us and by third-party sellers, our continuing focus on in-stock inventory availability and selection of product offerings, supply chain disruptions and resulting vendor lead times, our investment in new geographies and product lines, and the extent to which we choose to utilize third-party fulfillment providers. We also expect some variability in accounts payable days over time since they are affected by several factors, including the mix of product sales, the mix of sales by third-party sellers, the mix
+19
+Table of Contents
+of suppliers, seasonality, and changes in payment and other
+  --- passage 6 [kw: foreign exchange] ---
+  we include all vested and unvested stock awards outstanding, without regard to estimated forfeitures. Total shares outstanding plus outstanding stock awards were 10.5 billion and 10.6 billion as of December?31, 2021 and 2022.
+Our financial reporting currency is the U.S.?Dollar and changes in foreign exchange rates significantly affect our reported results and consolidated trends.
+For example, if the U.S.?Dollar weakens year-over-year relative to currencies in our international locations, our consolidated net sales and operating expenses will be higher than if currencies had remained con
+  --- passage 7 [kw: foreign exchange] ---
+  offset by changes in working capital. Working capital at any specific point in time is subject to many variables, including variability in demand, inventory management and category expansion, the timing of cash receipts and payments, customer and vendor payment terms, and fluctuations in foreign exchange rates.
+21
+Table of Contents
+Cash provided by (used in) investing activities corresponds with cash capital expenditures, including leasehold improvements, incentives received from property and equipment vendors, proceeds from asset sales, cash outlays for acquisitions, investments in
+  --- passage 8 [kw: fulfillment] ---
+  sales, and maturities of marketable securities. Cash capital expenditures were $55.4 billion, and $58.3 billion in 2021 and 2022, which primarily reflect investments in technology infrastructure (the majority of which is to support AWS business growth) and in additional capacity to support our fulfillment network. We expect to continue these investments over time, with increased spending on technology infrastructure. We made cash payments, net of acquired cash, related to acquisition and other investment activity of $2.0 billion and $8.3 billion in 2021 and 2022. We funded the acquisition
+
+======================================================================
+ENTRY: Q3_Meta_2022
+  file=meta_2022_10k.json  section=Item 7  len=80675
+  found_kws: ['macroeconomic', 'advertising', 'iOS', 'ATT', 'foreign exchange', 'currency', 'advertiser']
+  missing_kws: ['digital advertising', 'signal loss', 'slowdown']
+  --- passage 1 [kw: currency] ---
+  entitled "Limitations of Key Metrics and Other Data" in this Annual Report on Form 10-K.
+To supplement our consolidated financial statements, which are prepared and presented in accordance with generally accepted accounting principles in the United States (GAAP), we present revenue on a constant currency basis and free cash flow, which are non-GAAP financial measures. Revenue on a constant currency basis is presented in the section entitled "
+--
+Revenue
+--
+Foreign Exchange Impact on Revenue." To calculate revenue on a constant currency basis, we translated revenue for the full year 2022 using
+  --- passage 2 [kw: currency] ---
+  as a substitute for, or superior to, financial information prepared and presented in accordance with GAAP. These measures may be different from non-GAAP financial measures used by other companies, limiting their usefulness for comparison purposes. Moreover, presentation of revenue on a constant currency basis is provided for year-over-year comparison purposes, and investors should be cautioned that the effect of changing foreign currency exchange rates has an actual effect on our operating results. We believe these non-GAAP financial measures provide investors with useful supplemental info
+  --- passage 3 [kw: currency] ---
+  results and key community metrics for 2022 are set forth below. Our total revenue for 2022 was $116.61?billion, a decrease of 1% compared to 2021, which reflects a $5.96?billion negative impact from the appreciation of the U.S. dollar relative to other foreign currencies. Revenue on a constant currency basis was $122.57?billion for 2022, an increase of 4% compared to 2021. Our advertising revenue was impacted by a reduction in advertising demand during 2022 compared to 2021, which we believe was primarily driven by reduced marketer spending as a result of a more challenging macroeconomic
+  --- passage 4 [kw: advertising] ---
+  ?
+Facebook monthly active users (MAUs) were 2.96?billion as of December?31, 2022, an increase of 2% year-over-year.
+?
+Ad impressions delivered across our Family of Apps increased by 18% year-over-year in
+2022
+, and the average price per ad decreased by 16%
+year-over-year in
+2022
+.
+Developments in Advertising
+Substantially all of our revenue is currently generated from advertising on Facebook and Instagram. We rely on targeting and measurement tools that incorporate data signals from user activity on websites and services that we do not control in order to deliver relevant and effective ads t
+  --- passage 5 [kw: advertising] ---
+  target and measure ads. In addition, mobile operating system and browser providers, such as Apple and Google, have implemented product changes and/or announced future plans to limit the ability of websites and application developers to collect and use these signals to target and measure advertising. For example, in 2021, Apple made certain changes to its products and data use policies in connection with changes to its iOS operating system that reduce our and other iOS developers' ability to target and measure advertising, which has negatively impacted, and we expect will continue t
+  --- passage 6 [kw: advertising] ---
+  including by relying more on anonymized or aggregated third-party data. In addition, we are developing tools that enable marketers to share their data into our systems, as well as ad products that generate more valuable signals within our apps. More broadly, we also continue to innovate our advertising tools to help marketers prepare campaigns and connect with consumers, including developing growing formats such as Reels ads and our business messaging ad products. Across all of these efforts, we are making significant investments in artificial intelligence and machine learning to impro
+  --- passage 7 [kw: advertising] ---
+  to explore the possibility of new open standards for the private and secure processing of data for advertising purposes. We expect that some of these efforts will be long-term initiatives, and that the regulatory and platform developments described above will continue to adversely impact our advertising revenue for the foreseeable future.
+Other Business and Macroeconomic Conditions
+Other global and regional business, macroeconomic, and geopolitical conditions also have had, and we believe will continue to have, an impact on our user growth and engagement and advertising revenue. In part
+  --- passage 8 [kw: advertising] ---
+  markets from time to time. For example, in connection with the war in Ukraine, access to Facebook and Instagram was restricted in Russia and the services were then prohibited by the Russian government, which adversely affected user growth and engagement in
+2022
+. These trends adversely affected advertising revenue in
+2022
+, and we expect will continue to affect our advertising revenue in the foreseeable future.
+56
+T
+able of Contents
+The COVID-19 pandemic has also impacted our business and results of operations, with a varied impact on user growth and engagement, as well as the demand for a
+
+======================================================================
+ENTRY: Q4_Apple_2020
+  file=apple_2020_10k.json  section=Item 1A  len=68113
+  found_kws: ['COVID-19', 'pandemic', 'manufacturing', 'health and safety']
+  missing_kws: ['supply chain disruption', 'store closure', 'remote work', 'demand uncertainty']
+  --- passage 1 [kw: COVID-19] ---
+  of future performance, and investors should not use historical trends to anticipate results or trends in future periods.
+The Company's business, results of operations, financial condition and stock price have been adversely affected and could in the future be materially adversely affected by the COVID-19 pandemic.
+COVID-19 has spread rapidly throughout the world, prompting governments and businesses to take unprecedented measures in response. Such measures have included restrictions on travel and business operations, temporary closures of businesses, and quarantines and shelter-in-place ord
+  --- passage 2 [kw: manufacturing] ---
+  the measures taken by many countries in response have adversely affected and could in the future materially adversely impact the Company's business, results of operations, financial condition and stock price. Following the initial outbreak of the virus, the Company experienced disruptions to its manufacturing, supply chain and logistical services provided by outsourcing partners, resulting in temporary iPhone supply shortages that affected sales worldwide. During the course of the pandemic, the Company's retail stores, as well as channel partner points of sale, have been temporarily closed
+  --- passage 3 [kw: COVID-19] ---
+  customers. The Company has at times required substantially all of its employees to work remotely.
+The Company is continuing to monitor the situation and take appropriate actions in accordance with the recommendations and requirements of relevant authorities. The full extent of the impact of the COVID-19 pandemic on the Company's operational and financial performance is currently uncertain and will depend on many factors outside the Company's control, including, without limitation, the timing, extent, trajectory and duration of the pandemic, the development and availability of effective tre
+  --- passage 4 [kw: COVID-19] ---
+  include, but are not limited to, material adverse effects on: demand for the Company's products and services; the Company's supply chain and sales and distribution channels; the Company's ability to execute its strategic plans; and the Company's profitability and cost structure.
+To the extent the COVID-19 pandemic adversely affects the Company's business, results of operations, financial condition and stock price, it may also have the effect of heightening many of the other risks described in this Part I, Item 1A of this Form 10-K.
+Global and regional economic conditions could materially adv
+  --- passage 5 [kw: manufacturing] ---
+  will not incur write-downs, fees, impairments and other charges given the rapid and unpredictable pace of product obsolescence in the industries in which the Company competes.
+The Company orders components for its products and builds inventory in advance of product announcements and shipments. Manufacturing purchase obligations cover the Company's forecasted component and manufacturing requirements, typically for periods up to 150 days. Because the Company's markets are volatile, competitive and subject to rapid technology and price changes, there is a risk the Company will forecast incor
+  --- passage 6 [kw: manufacturing] ---
+  adversely affect its financial condition and operating results.
+The Company's new products often utilize custom components available from only one source. When a component or product uses new technologies, initial capacity constraints may exist until the suppliers' yields have matured or their manufacturing capacities have increased. The continued availability of these components at acceptable prices, or at all, can be affected for any number of reasons, including if suppliers decide to concentrate on the production of common components instead of components customized to meet the Company
+  --- passage 7 [kw: manufacturing] ---
+  The Company's business and financial performance could also be materially adversely affected depending on the time required to obtain sufficient quantities from the source, or to identify and obtain sufficient quantities from an alternative source.
+The Company depends on component and product manufacturing and logistical services provided by outsourcing partners, many of which are located outside of the U.S.
+Substantially all of the Company's manufacturing is performed in whole or in part by outsourcing partners located primarily in Asia. A significant concentration of this manufacturing
+  --- passage 8 [kw: manufacturing] ---
+  many components, and on outsourcing partners primarily located in Asia, for final assembly of substantially all of the Company's hardware products. Any failure of these partners to perform can have a negative impact on the Company's cost or supply of components or finished goods. In addition, manufacturing or logistics in these locations or transit to final destinations can be disrupted for a variety of reasons including, but not limited to, natural and man-made disasters, information technology system failures, commercial disputes, military actions, economic, business, labor, environmen
+
+======================================================================
+ENTRY: Q4_Microsoft_2020
+  file=microsoft_2020_10k.json  section=Item 1A  len=71955
+  found_kws: ['COVID-19', 'pandemic', 'Teams', 'cloud', 'security', 'capacity', 'health and safety', 'business continuity']
+  missing_kws: ['remote work', 'demand surge']
+  --- passage 1 [kw: security] ---
+  phones, gaming consoles, wearables, and other endpoint devices. Competitors pursuing this model also earn revenue from services integrated with the hardware and software platform, including applications and content sold through their integrated marketplaces. They may also be able to claim security and performance benefits from their vertically integrated offer. We also offer some vertically-integrated hardware and software products and services. To the extent we shift a portion of our business to a vertically integrated model we increase our cost of revenue and reduce our operating m
+  --- passage 2 [kw: security] ---
+  platform are important to device purchasing decisions. Users may incur costs to move data and buy new content and applications when switching platforms. To compete, we must successfully?enlist developers to write applications for our platform and ensure that these applications have high quality, security, customer appeal, and value. Efforts to compete with competitors' content and application marketplaces may increase our cost of revenue and lower our operating margins. Competitors' rules governing their content and applications marketplaces may restrict our ability to distribute products a
+  --- passage 3 [kw: cloud] ---
+  The competitive pressures described above may cause decreased sales volumes, price reductions, and/or increased operating costs, such as for research and development, marketing, and sales incentives. This may lead to lower revenue, gross margins, and operating income.
+Our increasing focus on cloud-based services presents execution and competitive risks.
+A growing part of our business involves cloud-based services available across the spectrum of computing devices. Our strategic vision is to compete and grow by building best-in-class platforms and productivity services for an intelligent
+  --- passage 4 [kw: cloud] ---
+  edge infused with artificial intelligence ("AI"). At the same time, our competitors are rapidly developing and deploying cloud-based services for consumers and business customers. Pricing and delivery models are evolving. Devices and form factors influence how users access services in the cloud and sometimes the user's choice of which cloud-based services to use. We are devoting significant resources to develop and deploy our cloud-based strategies. The Windows ecosystem must continue to evolve with this changing environment. We are undertaking cultural and organizational changes to
+  --- passage 5 [kw: cloud] ---
+  of our offerings such as Azure, Azure Stack, Azure IoT Edge, and Azure Sphere. We may not establish market share sufficient to achieve scale necessary to achieve our business objectives.
+Besides software development costs, we are incurring costs to build and maintain infrastructure to support cloud computing services. These costs will reduce the operating margins we have previously achieved. Whether we succeed in cloud-based services depends on our execution in several areas, including:
+?
+Continuing to bring to market compelling cloud-based experiences that generate increasing traffic an
+  --- passage 6 [kw: cloud] ---
+  ?
+Maintaining the utility, compatibility, and performance of our cloud-based services on the growing array of computing devices, including PCs, smartphones, tablets, gaming consoles, and other devices, as well as sensors and other endpoints.
+?
+Continuing to enhance the attractiveness of our cloud platforms to third-party developers.
+?
+Ensuring our cloud-based services meet the reliability expectations of our customers and maintain the security of their data as well as help them meet their own compliance needs.
+?
+Making our suite of cloud-based services platform-agnostic, available on a
+  --- passage 7 [kw: security] ---
+  and may in the future be required to record a significant charge in our consolidated financial statements during the period in which any impairment of our goodwill or amortizable intangible assets is determined, negatively affecting our results of operations.
+21
+PART I
+Item 1A
+Cyberattacks and security vulnerabilities could lead to reduced revenue, increased costs, liability claims, or harm to our
+reputation or
+competitive position.
+Security of our information technology
+Threats to IT security can take a variety of forms. Individual and groups of hackers and sophisticated organizations, i
+  --- passage 8 [kw: security] ---
+  users, partners, or customers to disclose passwords or other sensitive information or take other actions to gain access to our data or our users' or customers' data, or acting in a coordinated manner to launch distributed denial of service or other coordinated attacks. Inadequate account security practices may also result in unauthorized access to confidential data. For example, system administrators may fail to timely remove employee account access when no longer appropriate. Employees or third parties may intentionally compromise our or our users' security or systems, or reveal co
+
+======================================================================
+ENTRY: Q4_Google_2020
+  file=google_2020_10k.json  section=Item 1A  len=84708
+  found_kws: ['COVID-19', 'pandemic', 'advertising revenue', 'advertiser', 'travel', 'uncertainty', 'remote work', 'data center', 'health and safety']
+  missing_kws: ['hospitality']
+  --- passage 1 [kw: advertiser] ---
+  to various risks and uncertainties, including but not limited to those described below, which could harm our business, reputation, financial condition, and operating results.
+Risks Specific to our Company
+We generate a significant portion of our revenues from advertising, and reduced spending by advertisers, a loss of partners, or new and existing technologies that block ads online and/or affect our ability to customize ads could harm our business.
+We generate
+d over
+80%
+o
+f total revenues from the display of ads online in 2020. Many of our advertisers, companies that distribute our product
+  --- passage 2 [kw: advertiser] ---
+  that could potentially impair the availability and functionality of third-party digital advertising. Failing to provide superior value or deliver advertisements effectively and competitively could harm our reputation, financial condition, and operating results.
+In addition, expenditures by advertisers tend to be cyclical, reflecting overall economic conditions and budgeting and buying patterns. Adverse macroeconomic conditions, including COVID-19 and its effects on the global economy (as discussed in greater detail in our COVID-19 risk factor under 'General Risks' below), have impacte
+  --- passage 3 [kw: advertiser] ---
+  in ways that could affect our competitive position, including by making acquisitions, continuing to invest heavily in research and development and in talent, aggressively initiating intellectual property claims (whether or not meritorious), and continuing to compete aggressively for users, advertisers, customers, and content providers. Further, discrepancies in enforcement of existing laws may enable our lesser known competitors to aggressively interpret those laws without commensurate scrutiny, thereby affording them competitive advantages. Our competitors may also be able to innovat
+  --- passage 4 [kw: advertiser] ---
+  to or better than ours. This
+10
+Table of Contents
+Alphabet Inc.
+may force us to compete in different ways and expend significant resources in order to remain competitive. If our competitors are more successful than we are in developing compelling products or in attracting and retaining users, advertisers, publishers, customers, and content providers, our operating results could be harmed.
+Our ongoing investment in new businesses, products, services, and technologies is inherently risky, and could disrupt our current operations and harm our financial condition and operating results.
+We ha
+  --- passage 5 [kw: advertising revenue] ---
+  number of factors, including increasing competition and the continued expansion of our business into a variety of new fields. Changes in device mix, geographic mix, ongoing product and policy changes, product mix, and property mix and an increasing competition for advertising may also affect our advertising revenue growth rate. We may also experience a decline in our revenue growth rate as our revenues increase to higher levels, if there is a decrease in the rate of adoption of our products, services,
+and technologies, or due to deceleration or decline in demand for devices used to access o
+  --- passage 6 [kw: advertiser] ---
+  time consuming. Any increase in the unauthorized use of our intellectual property could make it more expensive to do business and harm our operating results.
+Our business depends on strong brands, and failing to maintain and enhance our brands would hurt our ability to expand our base of users, advertisers, customers, content providers, and other partners.
+Our strong brands have significantly contributed to the success of our business. Maintaining and enhancing the brands within Google Services, Google Cloud and Other Bets increases our ability to enter new categories and launch new and in
+  --- passage 7 [kw: advertiser] ---
+  shared on our platforms, data privacy and security issues and developments, and product or technical performance failures. For example, if we fail to appropriately respond to the sharing of misinformation or objectionable content on our services and/or products or objectionable practices by advertisers, or to otherwise adequately address user concerns, our users may lose confidence in our brands.
+Furthermore, failure to maintain and enhance equity in our brands may harm our business, financial condition, and operating results. Our success will depend largely on our ability to remain a
+  --- passage 8 [kw: pandemic] ---
+  them.
+We have experienced and/or may experience supply shortages and price increases driven by raw material, component or part availability, manufacturing capacity, labor shortages, industry allocations, tariffs, trade disputes
+12
+Table of Contents
+Alphabet Inc.
+and barriers, natural disasters or pandemics (including COVID-19), the effects of climate change (such as sea level rise, drought, flooding, wildfires, and increased storm severity), and significant changes in the financial or business condition of our suppliers. We have experienced and/or may in the future, experience shortages or o
+
+======================================================================
+ENTRY: Q4_Amazon_2020
+  file=amazon_2020_10k.json  section=Item 1A  len=54801
+  found_kws: ['COVID-19', 'pandemic', 'capacity']
+  missing_kws: ['worker safety', 'fulfillment center', 'essential worker', 'PPE', 'health protocols', 'demand surge', 'workforce']
+  --- passage 1 [kw: COVID-19] ---
+  price. These risk factors do not identify all risks that we face; our operations could also be affected by factors, events, or uncertainties that are not presently known to us or that we currently do not consider to present significant risks to our operations. In addition to the effects of the COVID-19 pandemic and resulting global disruptions on our business and operations discussed in Item 7 of Part II, "Management's Discussion and Analysis of Financial Condition and Results of Operations," and in the risk factors below, additional or unforeseen effects from the COVID-19 pandemic and th
+  --- passage 2 [kw: capacity] ---
+  to Successfully Optimizing and Operating Our Fulfillment Network and Data Centers
+Failures to adequately predict customer demand or otherwise optimize and operate our fulfillment network and data centers successfully from time to time result in excess or insufficient fulfillment or data center capacity, increased costs, and impairment charges, any of which could materially harm our business. As we continue to add fulfillment and data center capability or add new businesses with different requirements, our fulfillment and data center networks become increasingly complex and operating them
+  --- passage 3 [kw: capacity] ---
+  and business relationships. Under these agreements, we provide web services, technology, fulfillment, computing, digital storage, and other services, as well as enable sellers to offer products or services through our stores. These arrangements are complex and require substantial infrastructure capacity, personnel, and other resource commitments, which may limit the amount of business we can service. We may not be able to implement, maintain, and develop the components of these commercial relationships, which may include web services, fulfillment, customer service, inventory management, ta
+
+======================================================================
+ENTRY: Q4_Meta_2020
+  file=meta_2020_10k.json  section=Item 1A  len=183471
+  found_kws: ['COVID-19', 'pandemic', 'election', 'misinformation', 'iOS', 'privacy', 'political']
+  missing_kws: ['content moderation', 'advertiser boycott', 'health misinformation']
+  --- passage 1 [kw: COVID-19] ---
+  operation with mobile operating systems or changes in our relationships with mobile operating system partners;
+?
+failure of our new products, or changes to our existing products, to attract or retain users or generate revenue;
+Risks Related to Our Business Operations and Financial Results
+?
+the COVID-19 pandemic, including its impact on our advertising business;
+?
+our ability to compete effectively;
+?
+unfavorable media coverage and other risks affecting our ability to maintain and enhance our brands;
+?
+volatile or slower user and revenue growth rates in the future;
+?
+acquisitions and our a
+  --- passage 2 [kw: privacy] ---
+  ?
+litigation, including class action lawsuits;
+Risks Related to Government Regulation and Enforcement
+?
+government restrictions on access to Facebook or our other products, or other actions that impair our ability to sell advertising, in their countries;
+?
+complex and evolving U.S. and foreign privacy, data use and data protection, content, competition, consumer protection, and other laws and regulations;
+12
+Table of Contents
+?
+the impact of government investigations, enforcement actions, and settlements, including litigation and investigations by privacy and competition authorities;
+?
+ou
+  --- passage 3 [kw: COVID-19] ---
+  or more markets from time to time, particularly in markets where we have achieved higher penetration rates. For example, beginning in the first quarter of 2020, we experienced significant increases in the size and engagement of our active user base across a number of regions as a result of the COVID-19 pandemic. More recently, we have seen user growth and engagement returning to?pre-pandemic trends, and in each of the third and fourth quarters of 2020, we experienced slight declines on a quarter-over-quarter basis in the number of daily active users on Facebook in the United States & Cana
+  --- passage 4 [kw: privacy] ---
+  and networks, and that achieve a high level of market acceptance;
+?
+there are decreases in user sentiment due to questions about the quality or usefulness of our products or our user data practices, concerns about the nature of content made available on our products, or concerns related to privacy, safety, security, well-being, or other factors;
+?
+we are unable to manage and prioritize information to ensure users are presented with content that is appropriate, interesting, useful, and relevant to them;
+?
+we are unable to obtain or attract engaging third-party content;
+?
+we are unable
+  --- passage 5 [kw: privacy] ---
+  bodies determining that our reliance on Standard Contractual Clauses (SCCs) or other legal bases we rely upon to transfer user data from the European Union to the United States is invalid;
+?
+there is decreased engagement with our products, or failure to accept our terms of service, as part of privacy-focused changes that we have implemented or may implement in the future, whether voluntarily, in connection with the General Data Protection Regulation (GDPR), the European Union's ePrivacy Directive, the California Consumer Privacy Act (CCPA), or other laws, regulations, or regulatory actio
+  --- passage 6 [kw: privacy] ---
+  2020 due to concerns about content on our products);
+?
+the effectiveness of our ad targeting or degree to which users opt out of the use of data for ads, including as a result of product changes and controls that we have implemented or may implement in the future in connection with the GDPR, ePrivacy Directive, California Consumer Privacy Act (CCPA), other laws, regulations, or regulatory actions, or otherwise, that impact our ability to use data for advertising purposes;
+?
+the degree to which users cease or reduce the number of times they engage with our ads;
+?
+changes in the way advert
+  --- passage 7 [kw: COVID-19] ---
+  either of which would negatively affect our revenue and financial results. For example, macroeconomic conditions have affected, and may in the future affect, marketers' ability or willingness to spend with us, as we have seen with the regional and worldwide economic disruption related to the COVID-19 pandemic and associated declines in advertising activity on our products. The effects of the pandemic previously resulted in reduced demand for our ads, a related decline in pricing of our ads, and additional demands on our technical infrastructure as a result of increased usage of our serv
+  --- passage 8 [kw: privacy] ---
+  and effective ads to our users. Our advertising revenue is dependent on targeting and measurement tools that incorporate these signals, and any changes in our ability to use such signals will adversely affect our business. For example, legislative and regulatory developments, such as the GDPR, ePrivacy Directive, and CCPA, have impacted, and we expect will continue to impact, our ability to use such signals in our ad products. In particular, we have seen an increasing number of users opt out of certain types of ad targeting in Europe following adoption of the GDPR, and we have introduced p
+
+======================================================================
+ENTRY: Q5_Apple_2024
+  file=apple_2024_10k.json  section=Item 1  len=15779
+  found_kws: []
+  missing_kws: ['artificial intelligence', 'machine learning', 'Apple Intelligence', 'Siri', 'on-device', 'privacy', 'generative AI', 'ChatGPT', 'OpenAI']
+
+======================================================================
+ENTRY: Q5_Microsoft_2024
+  file=microsoft_2024_10k.json  section=Item 1  len=69579
+  found_kws: ['artificial intelligence', 'Copilot', 'OpenAI', 'generative AI', 'large language model', 'infrastructure']
+  missing_kws: ['Azure OpenAI', 'AI safety', 'CapEx']
+  --- passage 1 [kw: artificial intelligence] ---
+  Item 1.
+Business
+3
+Information about our Executive Officers
+18
+ITEM 1. B
+USINESS
+GENERAL
+Embracing Our Future
+Microsoft is a technology company committed to making digital technology and artificial intelligence ("AI") available broadly and doing so responsibly, with a mission to empower every person and every organization on the planet to achieve more. We create platforms and tools, powered by AI, that deliver innovative solutions that meet the evolving needs of our customers. From
+  --- passage 2 [kw: Copilot] ---
+  growth, and impact in every country around the world.
+We have entered a new age of AI that will fundamentally transform productivity for every individual, organization, and industry on earth, while helping us address some of our most pressing challenges. Microsoft's AI offerings, including Copilot and our Copilot stack, are already orchestrating a new era of AI transformation, driving better business outcomes across every role and industry. As a company, we believe we can be the democratizing force for this new generation of technology and the opportunity it will help unlock for every
+  --- passage 3 [kw: Copilot] ---
+  learns, and connects.
+Our growth depends on securely delivering continuous innovation and advancing our leading productivity and collaboration tools and services, including Microsoft 365, LinkedIn, and Dynamics 365. Microsoft 365 is an AI first platform that brings together Office, Windows, Copilot, and Enterprise Mobility + Security to help organizations empower their employees. Copilot for Microsoft 365 combines AI with business data in the Microsoft Graph and Microsoft 365 applications. Microsoft Teams is a comprehensive platform for communication and collaboration, with meetings, c
+  --- passage 4 [kw: Copilot] ---
+  era of collaborative applications for every role and business function to get insights and business impact faster. Dynamics 365 is a portfolio of intelligent business applications that delivers operational efficiency and breakthrough customer experiences. Our role-based extensions of Microsoft Copilot -- Copilot for Sales, Copilot for Service, and Copilot for Finance -- bring together the power of Copilot for Microsoft 365 with role-specific insights and workflow assistance to streamline business processes. Copilot Studio allows customers to customize Copilot for Microsoft 365 or build thei
+  --- passage 5 [kw: infrastructure] ---
+  optimizes operations, engages customers, and in some cases, changes the very core of products and services. We continue to invest in high performance and sustainable computing to meet the growing demand for fast access to Microsoft services provided by our network of cloud computing and AI infrastructure and datacenters.
+Our cloud business benefits from three economies of scale: datacenters that deploy computational resources at significantly lower cost per unit than smaller ones; datacenters that coordinate and aggregate diverse customer, geographic, and application demand patterns,
+  --- passage 6 [kw: infrastructure] ---
+  and compliance.
+We offer supercomputing power for AI at scale to run large workloads, complemented by our rapidly expanding portfolio of AI cloud services and hardware, which includes custom-built silicon and strong partnerships with chip manufacturers. We have introduced purpose-built cloud infrastructure for AI workloads including a custom AI accelerator, Azure Maia, and a custom in-house central processing unit, Azure Cobalt.
+4
+PART I
+Item 1
+Our AI platform, Azure AI, is helping organizations transform, bringing intelligence and insights to the hands of their employees and customers
+  --- passage 7 [kw: Copilot] ---
+  more easily, with the proper enterprise-level responsible AI and safety and security protections. Azure AI Studio provides a full lifecycle toolchain customers can use to ground these models on their own data, create prompt workflows, and help ensure they are deployed and used safely.
+GitHub Copilot is at the forefront of AI-powered software development, giving developers a tool to write code easier and faster. From GitHub to Visual Studio, we provide a developer tool chain for everyone, no matter the technical experience, across all platforms.
+We have a long-term partnership with OpenA
+  --- passage 8 [kw: OpenAI] ---
+  and deployment company. We deploy OpenAI's models across our consumer and enterprise products. As OpenAI's exclusive cloud provider, Azure powers all of OpenAI's workloads. We have also increased our investments in the development and deployment of specialized supercomputing systems to accelerate OpenAI's research.
+Our hybrid infrastructure offers integrated, end-to-end security, compliance, identity, and management capabilities to support the real-world needs and evolving regulatory requirements of commercial customers and enterprises. Our industry clouds bring together capabilities across
+
+======================================================================
+ENTRY: Q5_Google_2023
+  file=google_2023_10k.json  section=Item 1  len=32509
+  found_kws: ['Bard', 'Gemini', 'large language model', 'Search Generative Experience', 'Vertex AI', 'machine learning', 'Duet AI']
+  missing_kws: ['artificial intelligence', 'TPU']
+  --- passage 1 [kw: machine learning] ---
+  technology that can bring meaningful and positive change to people and societies across the world, and for our business. At Google, we have been bringing AI into our products and services for more than a decade and making them available to our users. Our journey began in 2001, when machine learning was first incorporated into Google Search to suggest better spellings to users searching the web. Today, AI in our products is
+4.
+Table of Contents
+Alphabet Inc.
+used by billions of people globally through features like autocomplete suggestions in Google Search; translation across 1
+  --- passage 2 [kw: Gemini] ---
+  for everyone.
+Deliver the Most Advanced, Safe, and Responsible AI
+We aim to build the most advanced, safe, and responsible AI with models that are developed, trained, and rigorously tested at scale powered by our continued investment in AI technical infrastructure. In December 2023, we launched Gemini, our most capable and general model. It was built from the ground up to be multimodal, which means it can generalize and seamlessly understand, operate across, and combine different types of information, including text, code, audio, images, and video. Our teams across Alphabet will leverage G
+  --- passage 3 [kw: Vertex AI] ---
+  to drive transformation. That is why we are focused on making it easy and scalable for others to innovate, and grow, with AI. That means providing the most advanced computing infrastructure and expanding access to Google's latest AI models that have been rigorously tested in our own products. Our Vertex AI platform gives developers the ability to train, tune, augment, and deploy applications using generative AI models and services such as Enterprise Search and Conversations. Duet AI for Google Cloud provides pre-packaged AI agents that assist developers to write, test, document, and operate
+  --- passage 4 [kw: Duet AI] ---
+  on our mission to organize the world's information and make it universally accessible and useful.
+While we have been integrating AI into our products for years, we are now embedding the power of generative AI to continue helping our users express themselves and get things done. For example, Duet AI in Google Workspace helps users write, organize, visualize, accelerate workflows, and have richer meetings. Bard allows users to collaborate with experimental AI with new features that include image capabilities, coding support, and app integration. Dream Screen, a new experimental feature i
+  --- passage 5 [kw: Search Generative Experience] ---
+  brings the benefits of AI to businesses of all sizes, helping them easily create uniquely-tailored imagery featuring their products -- for free. Additionally, we are experimenting with Search and Shopping ads that are directly integrated into the AI-powered snapshot and conversational mode in Search Generative Experience.
+Build the Most Helpful Personal Computing Platforms and Devices
+Over the years, our Pixel phones have incorporated AI compute directly into the device and built experiences on top of it. Our latest Pixel devices were built around AI, bringing the best AI-assistive exper
+  --- passage 6 [kw: large language model] ---
+  rich, relevant results. The introduction of new search modalities, like voice and visual search, made it easier for people to express their curiosity in natural and intuitive ways. We took that a step further with multisearch, which lets people search with text and images at the same time. Large language models like BERT and Multitask Unified Models, or MUMs, have made it possible to express more natural language queries, vastly improving the quality of results. Each advancement has made it easier and more natural for people to find what they are looking for.
+This drive to make inform
+  --- passage 7 [kw: machine learning] ---
+  of cybersecurity threats.
+?
+Databases and Analytics:
+provides a variety of different types of databases -- relational, key-value, in-memory -- to store and manage data for different types of applications. Our Data Cloud also unifies data lakes, data warehouses, data governance, and advanced machine learning into a single platform that can analyze data across any cloud.
+7.
+Table of Contents
+Alphabet Inc.
+?
+Collaboration Tools:
+Google Workspace and Duet AI in Google Workspace provide easy-to-use, secure communication and collaboration tools, including apps like Gmail, Docs, Drive, Calend
+  --- passage 8 [kw: Duet AI] ---
+  Meet, and more. These tools enable secure hybrid and remote work, boosting productivity and collaboration. AI has been used in Google Workspace for years to improve grammar, efficiency, security, and more with features like Smart Reply, Smart Compose, and malware and phishing protection in Gmail. Duet AI in Google Workspace helps users write, organize, visualize, accelerate workflows, and have richer meetings.
+?
+AI Platform and Duet AI for Google Cloud:
+Our Vertex AI platform gives developers the ability to train, tune, augment, and deploy applications using generative AI models and services
+
+======================================================================
+ENTRY: Q5_Amazon_2024
+  file=amazon_2024_10k.json  section=Item 1  len=13243
+  found_kws: ['artificial intelligence', 'Alexa', 'AWS']
+  missing_kws: ['generative AI', 'Bedrock', 'Titan', 'Trainium', 'Inferentia', 'large language model', 'foundation model']
+  --- passage 1 [kw: AWS] ---
+  long-term thinking. In each of our segments, we serve our primary customer sets, consisting of consumers, sellers, developers, enterprises, content creators, advertisers, and employees.
+We have organized our operations into three segments: North America, International, and Amazon Web Services ("AWS"). These segments reflect the way the Company evaluates its business performance and manages its operations. Information on our net sales is contained in Item?8 of Part II, "Financial Statements and Supplementary Data -- Note 10 -- Segment Information."
+Consumers
+We serve consumers through our onl
+  --- passage 2 [kw: AWS] ---
+  We earn fixed fees, a percentage of sales, per-unit activity fees, interest, or some combination thereof, for our seller programs.
+Developers and Enterprises
+We serve developers and enterprises of all sizes, including start-ups, government agencies, and academic institutions, through AWS, which offers a broad set of on-demand technology services, including compute, storage, database, analytics, and machine learning, and other services.
+Content Creators
+We offer programs that allow authors, independent publishers, musicians, filmmakers, Twitch streamers, skill and app developers,
+  --- passage 3 [kw: artificial intelligence] ---
+  processing; (5)?companies that provide fulfillment and logistics services for themselves or for third parties, whether online or offline; (6) companies that provide information technology services or products, including on-premises or cloud-based infrastructure, tools and services relating to artificial intelligence, and other services; (7)?companies that design, manufacture, market, or sell consumer electronics, communications, and other electronic devices and services; (8) companies that sell grocery products online and in physical stores; (9) companies that provide advertising service
+  --- passage 4 [kw: AWS] ---
+  April 2016.
+Matthew S. Garman.
+Mr. Garman has served as CEO Amazon Web Services since June 2024, Senior Vice President, Amazon Web Services from February 2021 until June 2024, Vice President, Marketing, Sales and Support of Amazon Web Services from January 2020 to February 2021, Vice President, AWS Compute Services from September 2018 to January 2020, and Vice President, EC2 from December 2012 to September 2018.
+Douglas J. Herrington.
+Mr. Herrington has served as CEO Worldwide Amazon Stores since July 2022, Senior Vice President, North America Consumer from January 2015 to July 2022, Senio
+  --- passage 5 [kw: Alexa] ---
+  May 2014, and as Vice President and Associate General Counsel for Litigation and Regulatory matters from April 2002 until September 2012.
+5
+Table of Contents
+Board of Directors
+Name
+Age
+Position
+Jeffrey P. Bezos
+61
+Executive Chair
+Andrew R. Jassy
+57
+President and Chief Executive Officer
+Keith B. Alexander
+73
+Former Chair and CEO of IronNet, Inc.
+Edith W. Cooper
+63
+Former Executive Vice President, Goldman Sachs Group, Inc.
+Jamie S. Gorelick
+74
+Partner, Wilmer Cutler Pickering Hale and Dorr LLP
+Daniel P. Huttenlocher
+66
+Dean, MIT Schwarzman College of Computing
+Andrew Y. Ng
+48
+Managing Genera
+
+======================================================================
+ENTRY: Q5_Meta_2024
+  file=meta_2024_10k.json  section=Item 1  len=40371
+  found_kws: ['artificial intelligence', 'Llama', 'Meta AI', 'generative AI', 'Reels', 'data center']
+  missing_kws: ['open-source', 'AI assistant', 'recommendation', 'CapEx']
+  --- passage 1 [kw: artificial intelligence] ---
+  any single product, but rather an entire ecosystem of experiences, devices, and new technologies. While the metaverse is in the very early stages of its development, we believe it will become the next computing platform and the future of social interaction.
+Across our work, we are innovating in artificial intelligence (AI) technologies to build new experiences that help make our platform more social, useful, and immersive. Our AI investments support initiatives across our products and services, helping power the systems that rank content in our apps, our discovery engine that recommends re
+  --- passage 2 [kw: generative AI] ---
+  including on Facebook, Instagram, Messenger, and third-party applications and websites. RL generates revenue from sales of consumer hardware products, software, and content.
+We invest in our business based on our company priorities. In 2025, we intend to focus on several key investment areas: generative AI, our discovery engine, the metaverse and wearables, Threads, monetization of our products and services, platform integrity and community support, and infrastructure capacity.
+The majority of our investments are directed toward developing our family of apps. In 2024, 79% of our total co
+  --- passage 3 [kw: Reels] ---
+  the power to build community and bring the world closer together. It's a place for people to share life's moments and discuss what's happening, nurture and build relationships, discover and connect to people with shared interests, and create economic opportunity. They can do this through Feed, Reels, Stories, Groups, Marketplace, and more.
+?
+Instagram.
+Instagram brings people closer to the people and things they love. Instagram Feed, Stories, Reels, Live, and messaging are places where people and creators can connect and express themselves through photos, video, and private messaging, and
+  --- passage 4 [kw: Meta AI] ---
+  allow users to experience the immersion and presence of VR while still being grounded in the physical world, through our Meta Quest devices.
+Our wearables efforts include our AR initiatives. We have continued to advance our roadmap to include additional AI-enabled offerings such as the Ray-Ban Meta AI glasses, which feature Meta AI, our advanced conversational assistant, as well as other features such as hands-free interaction. As we continue our long-term efforts to bring AR glasses to market, in 2024 we also unveiled our Orion prototype, a pair of true AR glasses that overlay content on
+  --- passage 5 [kw: data center] ---
+  place people and their social interactions at the core of the product experience. As our user base grows, as engagement with products like video, VR, and MR increases, and as we deepen our investment in new technologies, our computing needs continue to expand. We have designed and built our own data centers and key portions of our technical infrastructure, and a substantial portion of our technical infrastructure is also provided by third parties. Our ability to provide and continue to innovate our products and services depends on the continued availability of components, power, and networ
+  --- passage 6 [kw: generative AI] ---
+  marketers and developers. We are also investing in protecting the security, privacy, and integrity of our platform by investing in both people and technology to strengthen our systems against abuse. Across all of these efforts, we are making significant investments in AI initiatives, including generative AI, to, among other things, recommend relevant content across our products through our AI-powered discovery engine, enhance our advertising tools and improve our ad delivery, targeting, and measurement capabilities, and to develop new products as well as new features for existing products
+  --- passage 7 [kw: Meta AI] ---
+  For our RL products, our sales and operations efforts utilize third-party sales channels such as retailers, resellers, and our direct-to-consumer channel, Meta.com. These efforts are focused on driving consumer and enterprise sales and adoption of our Meta Quest portfolio of products and Ray-Ban Meta AI glasses.
+Marketing
+Historically, our communities have generally grown organically with people inviting their friends to connect with them, supported by internal efforts to stimulate awareness and interest. In addition, we have invested and will continue to invest in marketing our products an
+  --- passage 8 [kw: Reels] ---
+  stock is currently listed on the Nasdaq Global Select Market under the symbol "META." Our principal executive offices are located at 1 Meta Way, Menlo Park, California 94025, and our telephone number is (650) 543-4800.
+Meta, the Meta logo, Meta Quest, Meta Horizon, Facebook, Instagram, WhatsApp, Reels, and our other registered or common law trademarks, service marks, or trade names appearing in this Annual Report on Form 10-K are the property of Meta Platforms, Inc. or its affiliates. Other trademarks, service marks, or trade names appearing in this Annual Report on Form 10-K are the proper

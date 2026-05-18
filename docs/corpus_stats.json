@@ -1,0 +1,90 @@
+{
+  "documents": {
+    "total_documents": 100,
+    "by_company": {
+      "Amazon": 20,
+      "Apple": 20,
+      "Google": 20,
+      "Meta": 20,
+      "Microsoft": 20
+    },
+    "by_year": {
+      "2020": 20,
+      "2021": 20,
+      "2022": 20,
+      "2023": 20,
+      "2024": 20
+    },
+    "by_doctype": {
+      "10-K": 25,
+      "10-Q": 75
+    },
+    "avg_words": 33638,
+    "largest_doc": {
+      "name": "meta_2024_10k",
+      "words": 76907
+    },
+    "smallest_doc": {
+      "name": "apple_2024_q1_10q",
+      "words": 8429
+    }
+  },
+  "sections": {
+    "total_sections": 400,
+    "section_coverage": {
+      "Item 1A": {
+        "count": 100,
+        "coverage_pct": 100.0
+      },
+      "Item 1": {
+        "count": 100,
+        "coverage_pct": 100.0
+      },
+      "Item 7": {
+        "count": 100,
+        "coverage_pct": 100.0
+      },
+      "Item 8": {
+        "count": 100,
+        "coverage_pct": 100.0
+      }
+    },
+    "avg_section_length": {
+      "Item 1A": 11654,
+      "Item 1": 14603,
+      "Item 7": 2185,
+      "Item 8": 5196
+    }
+  },
+  "chunks": {
+    "total_chunks": 7379,
+    "avg_chunk_tokens": 504,
+    "by_company": {
+      "Amazon": 1256,
+      "Apple": 763,
+      "Google": 1355,
+      "Meta": 2446,
+      "Microsoft": 1559
+    },
+    "by_year": {
+      "2020": 1537,
+      "2021": 1439,
+      "2022": 1437,
+      "2023": 1477,
+      "2024": 1489
+    },
+    "by_section": {
+      "Item 1": 3198,
+      "Item 1A": 2563,
+      "Item 7": 483,
+      "Item 8": 1135
+    }
+  },
+  "question_coverage": {
+    "total_questions": 325,
+    "full_coverage_count": 325,
+    "full_coverage_pct": 100.0,
+    "missing_coverage_count": 0,
+    "missing_questions": []
+  }
+}

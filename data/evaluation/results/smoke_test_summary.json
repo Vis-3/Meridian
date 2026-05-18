@@ -1,0 +1,86 @@
+{
+  "generated_at": "2026-05-16",
+  "note": "Smoke test results — single query per architecture. Not RAGAS evaluated. Latency includes Ollama cold start.",
+  "architectures": [
+    {
+      "name": "naive",
+      "smoke_test": "PASS",
+      "latency_ms": 22724.7,
+      "tokens": 1315,
+      "citations": 5,
+      "answer_correct": true,
+      "neo4j_active": false,
+      "notes": "Cold start baseline. Citation from FY2024 10-K 3-year comparative table — expected behavior."
+    },
+    {
+      "name": "hybrid_rag",
+      "smoke_test": "PASS",
+      "latency_ms": 45937.4,
+      "tokens": 1325,
+      "citations": 5,
+      "answer_correct": true,
+      "neo4j_active": false,
+      "notes": "Citations differ from naive. Reranker active. Semantic chunking + synonym expansion working."
+    },
+    {
+      "name": "fusion_rag",
+      "smoke_test": "PASS",
+      "latency_ms": 62556.8,
+      "tokens": 1297,
+      "citations": 5,
+      "answer_correct": true,
+      "neo4j_active": false,
+      "notes": "5 distinct query variants generated. Higher latency expected — 5x retrieval calls."
+    },
+    {
+      "name": "corrective_rag",
+      "smoke_test": "PASS",
+      "latency_ms": 116255.5,
+      "tokens": 1344,
+      "citations": 5,
+      "answer_correct": true,
+      "neo4j_active": false,
+      "notes": "20 chunks scored. 2 scored >=0.8, rest near 0. Highest latency — CRAG scoring adds overhead."
+    },
+    {
+      "name": "graph_rag",
+      "smoke_test": "PASS",
+      "latency_ms": 65272.7,
+      "tokens": 1383,
+      "citations": 5,
+      "answer_correct": "partial",
+      "neo4j_active": true,
+      "notes": "Graph results: 5. Cypher executing correctly. Azure not broken out as separate line item in MSFT filings — model correctly said cannot find explicit figure. Expected behavior, not a bug."
+    },
+    {
+      "name": "agentic_rag",
+      "smoke_test": "PASS",
+      "latency_ms": null,
+      "tokens": null,
+      "citations": null,
+      "answer_correct": true,
+      "neo4j_active": true,
+      "notes": "All 4 tools routing correctly. Re-retrieval triggered once on comparative query (faithfulness_proxy 0.60 -> 1.00 after retry). State transitions logged."
+    },
+    {
+      "name": "full_system",
+      "smoke_test": "PASS",
+      "latency_ms": null,
+      "tokens": null,
+      "citations": null,
+      "answer_correct": true,
+      "neo4j_active": true,
+      "notes": "All 6 routing decisions correct: simple_factual -> hierarchical, numerical -> agentic, temporal -> agentic, comparative -> fusion, multi_hop -> graph, risk_qualitative -> corrective."
+    },
+    {
+      "name": "hierarchical_rag",
+      "smoke_test": "PENDING",
+      "latency_ms": null,
+      "tokens": null,
+      "citations": null,
+      "answer_correct": null,
+      "neo4j_active": false,
+      "notes": "Waiting for build_summary_index.py to complete. 100 documents, ~50 mins on Ollama llama3.1:8b."
+    }
+  ]
+}

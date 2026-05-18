@@ -1,0 +1,57 @@
+# Meridian — pinned dependencies
+# Install torch with CUDA before everything else:
+#   pip install torch==2.6.0+cu124 --index-url https://download.pytorch.org/whl/cu124
+# Then install the rest:
+#   pip install -r requirements.txt
+
+# ── Core ML ──────────────────────────────────────────────────────────────────
+# torch is installed separately (CUDA build) — do not pin here
+sentence-transformers==3.3.1   # dense retrieval + reranker
+transformers==5.8.0            # sentence-transformers dependency
+scikit-learn==1.8.0            # used internally by ragas + metrics
+numpy==2.4.4
+scipy==1.17.1
+
+# ── Vector store ─────────────────────────────────────────────────────────────
+qdrant-client==1.18.0
+rank-bm25==0.2.2               # sparse BM25 retrieval
+
+# ── Graph DB ─────────────────────────────────────────────────────────────────
+neo4j==6.2.0
+
+# ── LLM / agent layer ────────────────────────────────────────────────────────
+requests==2.33.1               # Ollama HTTP calls
+langchain==1.3.1
+langchain-core==1.4.0
+langchain-community==0.4.1
+langchain-text-splitters==1.1.2
+langgraph==1.2.0               # agentic_rag state machine
+
+# ── Evaluation ───────────────────────────────────────────────────────────────
+ragas==0.4.3
+datasets==4.8.5                # ragas dependency
+
+# ── Data engineering / ingestion ─────────────────────────────────────────────
+PyMuPDF==1.27.2.3              # PDF extraction (fallback)
+beautifulsoup4==4.14.3         # HTML/iXBRL extraction (primary)
+lxml==6.0.2                    # beautifulsoup HTML parser
+pandas==3.0.2
+boto3==1.43.9                  # AWS S3 uploads
+python-dotenv==1.2.2           # .env loading in config.py
+
+# ── Serving / dashboard ──────────────────────────────────────────────────────
+fastapi==0.136.1
+uvicorn==0.34.3                # ASGI server for FastAPI
+streamlit==1.45.1              # results dashboard
+plotly==5.24.1                 # charts in dashboard
+
+# ── Monitoring ───────────────────────────────────────────────────────────────
+prometheus_client==0.21.1      # /metrics endpoint
+
+# ── Testing ──────────────────────────────────────────────────────────────────
+pytest==8.3.5
+pytest-cov==6.1.0
+
+# ── Dev tools ────────────────────────────────────────────────────────────────
+rich==14.3.4                   # pretty terminal output in scripts
+tqdm==4.67.3                   # progress bars in build_index.py

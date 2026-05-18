@@ -1,0 +1,74 @@
+{
+  "graph": {
+    "n_questions": 180,
+    "keyword_hit_rate": 0.542,
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "answer_correctness": null,
+    "total_cost_usd": 0.022194,
+    "model": "gemini-2.5-flash"
+  },
+  "naive": {
+    "n_questions": 180,
+    "keyword_hit_rate": 0.521,
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "answer_correctness": null,
+    "total_cost_usd": 0.022812,
+    "model": "gemini-2.5-flash"
+  },
+  "hybrid": {
+    "n_questions": 180,
+    "keyword_hit_rate": 0.472,
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "answer_correctness": null,
+    "total_cost_usd": 0.018609,
+    "model": "gemini-2.5-flash"
+  },
+  "hierarchical": {
+    "n_questions": 180,
+    "keyword_hit_rate": 0.525,
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "answer_correctness": null,
+    "total_cost_usd": 0.021365,
+    "model": "gemini-2.5-flash"
+  },
+  "fusion": {
+    "n_questions": 180,
+    "keyword_hit_rate": 0.505,
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "answer_correctness": null,
+    "total_cost_usd": 0.021767,
+    "model": "gemini-2.5-flash"
+  },
+  "agentic": {
+    "n_questions": 180,
+    "keyword_hit_rate": 0.534,
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "answer_correctness": null,
+    "total_cost_usd": 0.021163,
+    "model": "gemini-2.5-flash"
+  },
+  "full_system": {
+    "n_questions": 180,
+    "keyword_hit_rate": 0.533,
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "answer_correctness": null,
+    "total_cost_usd": 0.021207,
+    "model": "gemini-2.5-flash"
+  },
+  "corrective": {
+    "n_questions": 180,
+    "keyword_hit_rate": 0.538,
+    "faithfulness": null,
+    "answer_relevancy": null,
+    "answer_correctness": null,
+    "total_cost_usd": 0.018273,
+    "model": "gemini-2.5-flash"
+  }
+}

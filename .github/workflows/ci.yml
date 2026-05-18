@@ -1,0 +1,125 @@
+name: Meridian CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+      fail-fast: false
+
+    runs-on: ${{ matrix.os }}
+
+    env:
+      PYTHONUTF8: "1"
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set UTF-8 encoding (Windows)
+        if: runner.os == 'Windows'
+        run: |
+          [System.Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+        shell: pwsh
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install pytest pytest-cov
+          pip install torch==2.6.0 --index-url https://download.pytorch.org/whl/cpu
+          pip install sentence-transformers==3.3.1
+          pip install ragas==0.4.3 datasets==4.8.5
+          pip install qdrant-client==1.18.0 rank-bm25==0.2.2
+          pip install PyMuPDF==1.27.2.3 beautifulsoup4==4.14.3 lxml==6.0.2
+          pip install python-dotenv==1.2.2 requests==2.33.1
+          pip install numpy==2.4.4 pandas==3.0.2 scikit-learn==1.8.0
+          pip install neo4j==6.2.0
+          pip install langchain==1.3.1 langchain-core==1.4.0 langgraph==1.2.0
+          pip install fastapi==0.136.1 plotly==5.24.1
+          pip install prometheus_client
+
+      - name: Run unit tests
+        run: pytest tests/ -v --tb=short -p no:warnings
+
+      - name: Validate questions.json
+        run: |
+          python -c "
+          import json
+          with open('data/evaluation/questions.json', encoding='utf-8') as f:
+              q = json.load(f)
+          assert len(q) == 325, f'Expected 325, got {len(q)}'
+          types = {}
+          for item in q:
+              types[item['type']] = types.get(item['type'], 0) + 1
+          assert types['simple_factual'] == 50
+          assert types['numerical_reasoning'] == 50
+          assert types['temporal'] == 60
+          assert types['comparative'] == 60
+          assert types['multi_hop'] == 55
+          assert types['risk_qualitative'] == 50
+          print('questions.json valid -- 325 questions, correct distribution')
+          "
+
+      - name: Validate facts.py
+        run: |
+          python -c "
+          import sys; sys.path.insert(0, '.')
+          from data.evaluation.facts import FACTS, get, yoy_growth
+          assert len(FACTS) == 5
+          for company in ['Apple','Microsoft','Google','Amazon','Meta']:
+              for year in [2020,2021,2022,2023,2024]:
+                  f = get(company, year)
+                  assert f is not None, f'Missing {company} {year}'
+                  assert 'revenue_b' in f
+          r = yoy_growth('Apple', 'revenue_b', 2021)
+          assert r is not None
+          assert abs(r - 33.3) < 1.0
+          print('facts.py valid -- all 25 company/year combinations present')
+          "
+
+      - name: Validate qualitative ground truths
+        run: |
+          python -c "
+          import sys; sys.path.insert(0, '.')
+          from data.evaluation.qualitative_ground_truths import QUALITATIVE_GROUND_TRUTHS
+          assert len(QUALITATIVE_GROUND_TRUTHS) == 50
+          for entry in QUALITATIVE_GROUND_TRUTHS:
+              assert 'id' in entry
+              assert 'keywords' in entry
+              assert len(entry['keywords']) >= 5
+              assert 'ground_truth_placeholder' in entry
+          print('qualitative_ground_truths.py valid -- 50 entries')
+          "
+
+      - name: Import check all modules
+        run: |
+          python -c "
+          import sys; sys.path.insert(0, '.')
+          modules = [
+              'config',
+              'data.evaluation.facts',
+              'data.evaluation.qualitative_ground_truths',
+              'evaluation.metrics',
+              'ingestion.metadata',
+              'ingestion.chunkers.fixed',
+              'ingestion.chunkers.recursive',
+              'ingestion.chunkers.parent_child',
+          ]
+          for mod in modules:
+              try:
+                  __import__(mod)
+                  print(f'OK {mod}')
+              except Exception as e:
+                  print(f'FAIL {mod}: {e}')
+                  sys.exit(1)
+          "
