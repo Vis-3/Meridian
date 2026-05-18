@@ -592,14 +592,12 @@ def tab_ask() -> None:
         st.markdown(response.get("answer", "No answer returned."))
 
         # Metrics row
-        faith_proxy = response.get("faithfulness_proxy") or response.get("faithfulness") or 0.0
         chunks_retrieved = len(response.get("citations", []))
-        mcols = st.columns(5)
-        mcols[0].metric("Faithfulness",      f"{faith_proxy:.3f}")
-        mcols[1].metric("Chunks Retrieved",  chunks_retrieved)
-        mcols[2].metric("Latency",           f"{response.get('latency_ms', 0):.0f} ms")
-        mcols[3].metric("Tokens",            response.get("tokens_used", 0))
-        mcols[4].metric("Cost",              f"${response.get('estimated_cost_usd', 0):.5f}")
+        mcols = st.columns(4)
+        mcols[0].metric("Chunks Retrieved",  chunks_retrieved)
+        mcols[1].metric("Latency",           f"{response.get('latency_ms', 0):.0f} ms")
+        mcols[2].metric("Tokens",            response.get("tokens_used", 0))
+        mcols[3].metric("Cost",              f"${response.get('estimated_cost_usd', 0):.5f}")
 
         if response.get("keyword_hit_rate") is not None:
             st.metric("Keyword hit rate", f"{response['keyword_hit_rate']:.1%}")
